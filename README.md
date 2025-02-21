@@ -1,4 +1,5 @@
 
+
 ---
 
 ## 📜 **README.md** - Trabalho Interdisciplinar 4  
@@ -32,8 +33,8 @@ Este é um projeto acadêmico desenvolvido para a disciplina **Trabalho Interdis
  └── TrabalhoInterdisciplinar4.sln (solução Unity)
 ```
 
-### 👥 Equipe  
 
+<<<<<<< HEAD
 👨‍💻 **Kaiky França da Silva** - [LinkedIn](www.linkedin.com/in/glkaiky)  
 🎨 **Nome 2**  - [LinkedIn](https://www.linkedin.com/in/nome2)  
 🎮 **Nome 3** - [LinkedIn](https://www.linkedin.com/in/nome3)  
@@ -42,6 +43,29 @@ Este é um projeto acadêmico desenvolvido para a disciplina **Trabalho Interdis
 🛠 **Nome 6** - [LinkedIn](https://www.linkedin.com/in/nome6)  
 🚀 **Nome 7** - [LinkedIn](https://www.linkedin.com/in/nome7)  
 🔍 **Nome 8** - [LinkedIn](https://www.linkedin.com/in/nome8)  
+=======
+---
+
+## 👥 Equipe e Responsabilidades  
+
+### 🎨 **Grafos, Arte e Level Design**  
+👤 **[SEU NOME]** | 🔗 [LinkedIn](LINKEDIN)  
+👤 **[SEU NOME]** | 🔗 [LinkedIn](LINKEDIN)  
+
+### 🤖 **AI e Level Design (Provavelmente Mecânicas Principais Também)**  
+👤 **[SEU NOME]** | 🔗 [LinkedIn](LINKEDIN)  
+👤 **[SEU NOME]** | 🔗 [LinkedIn](LINKEDIN)  
+
+### 🎮 **Organização, Design e Combate**  
+👤 **[Kaiky França da Silva]** | 🔗 [LinkedIn](https://www.linkedin.com/in/glkaiky/) | [Portifólio](www.kaikyfrs.com.br)  
+👤 **[Gabriel Cunha Schlegel]** | 🔗 [LinkedIn](https://www.linkedin.com/in/gabriel-cunha-schlegel-0b417627b/)  
+
+### 🔄 **Suporte Geral (Função Não Definida, Auxiliando Onde For Necessário)**  
+👤 **[SEU NOME]** | 🔗 [LinkedIn](LINKEDIN)  
+👤 **[SEU NOME]** | 🔗 [LinkedIn](LINKEDIN)  
+
+---
+>>>>>>> 5bad874a79f2496d203d6fab0e7dc3954695c0f6
 
 
 ## 🛠 Como Contribuir  
