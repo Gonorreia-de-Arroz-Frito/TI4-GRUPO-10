@@ -38,20 +38,20 @@ Este é um projeto acadêmico desenvolvido para a disciplina **Trabalho Interdis
 ## 👥 Equipe e Responsabilidades  
 
 ### 🎨 **Grafos, Arte e Level Design**  
-👤 **[Felipe VIlhena]**  | 🔗 [LinkedIn](https://www.linkedin.com/in/felipe-vilhena-dias-224b23271/) | [Portifólio](https://github.com/felipevidias)
-👤 **[Arthur Clemente]** | 🔗 [LinkedIn](LINKEDIN)  
+👤 **[Felipe Vilhena Dias]**  | 🔗 [LinkedIn](https://www.linkedin.com/in/felipe-vilhena-dias-224b23271/) | [Portifólio](https://github.com/felipevidias)<br>
+👤 **[Arthur Clemente Machado]** | 🔗 [LinkedIn](https://www.linkedin.com/in/arthur-clemente-846b7627b/)  
 
 ### 🤖 **AI e Level Design (Provavelmente Mecânicas Principais Também)**  
-👤 **[SEU NOME]** | 🔗 [LinkedIn](LINKEDIN) 
-👤 **[SEU NOME]** | 🔗 [LinkedIn](LINKEDIN)  
+👤 **[Lucas Henrique Rocha Hauck]** | 🔗 [LinkedIn](https://www.linkedin.com/in/lucas-henrique-rocha-hauck?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) 
+👤 **[Diego Moreira Rocha]** | 🔗 [LinkedIn](https://www.linkedin.com/in/diego-moreira-36117727b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
 
 ### 🎮 **Organização, Design e Combate**  
 👤 **[Kaiky França da Silva]** | 🔗 [LinkedIn](https://www.linkedin.com/in/glkaiky/) | [Portifólio](www.kaikyfrs.com.br)  
 👤 **[Gabriel Cunha Schlegel]** | 🔗 [LinkedIn](https://www.linkedin.com/in/gabriel-cunha-schlegel-0b417627b/)  
 
 ### 🔄 **Suporte Geral (Função Não Definida, Auxiliando Onde For Necessário)**  
-👤 **[Iago Fereguetti]** | 🔗 [LinkedIn](LINKEDIN)  
-👤 **[Luan Carrieiros]** | 🔗 [LinkedIn](https://www.linkedin.com/in/luan-carrieiros-b7508b237/) 
+👤 **[Iago Fereguetti Ribeiro]** | 🔗 [LinkedIn](https://www.linkedin.com/in/iago-ribeiro-b6bb72280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
+👤 **[Luan Barbosa Rosa Carrieiros]** | 🔗 [LinkedIn](https://www.linkedin.com/in/luan-carrieiros-b7508b237/) 
 
 ---
 
