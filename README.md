@@ -49,11 +49,11 @@ Este é um projeto acadêmico desenvolvido para a disciplina **Trabalho Interdis
 ## 👥 Equipe e Responsabilidades  
 
 ### 🎨 **Grafos, Arte e Level Design**  
-👤 **[SEU NOME]** | 🔗 [LinkedIn](LINKEDIN)  
-👤 **[SEU NOME]** | 🔗 [LinkedIn](LINKEDIN)  
+👤 **[Felipe VIlhena]**  | 🔗 [LinkedIn](https://www.linkedin.com/in/felipe-vilhena-dias-224b23271/) | [Portifólio](https://github.com/felipevidias)
+👤 **[Arthur Clemente]** | 🔗 [LinkedIn](LINKEDIN)  
 
 ### 🤖 **AI e Level Design (Provavelmente Mecânicas Principais Também)**  
-👤 **[SEU NOME]** | 🔗 [LinkedIn](LINKEDIN)  
+👤 **[SEU NOME]** | 🔗 [LinkedIn](LINKEDIN) 
 👤 **[SEU NOME]** | 🔗 [LinkedIn](LINKEDIN)  
 
 ### 🎮 **Organização, Design e Combate**  
@@ -61,8 +61,8 @@ Este é um projeto acadêmico desenvolvido para a disciplina **Trabalho Interdis
 👤 **[Gabriel Cunha Schlegel]** | 🔗 [LinkedIn](https://www.linkedin.com/in/gabriel-cunha-schlegel-0b417627b/)  
 
 ### 🔄 **Suporte Geral (Função Não Definida, Auxiliando Onde For Necessário)**  
-👤 **[SEU NOME]** | 🔗 [LinkedIn](LINKEDIN)  
-👤 **[SEU NOME]** | 🔗 [LinkedIn](LINKEDIN)  
+👤 **[Iago Fereguetti]** | 🔗 [LinkedIn](LINKEDIN)  
+👤 **[Luan Carrieiros]** | 🔗 [LinkedIn](https://www.linkedin.com/in/luan-carrieiros-b7508b237/) 
 
 ---
 >>>>>>> 5bad874a79f2496d203d6fab0e7dc3954695c0f6
