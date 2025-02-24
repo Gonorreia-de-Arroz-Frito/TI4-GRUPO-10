@@ -33,17 +33,6 @@ Este é um projeto acadêmico desenvolvido para a disciplina **Trabalho Interdis
  └── TrabalhoInterdisciplinar4.sln (solução Unity)
 ```
 
-
-<<<<<<< HEAD
-👨‍💻 **Kaiky França da Silva** - [LinkedIn](www.linkedin.com/in/glkaiky)  
-🎨 **Nome 2**  - [LinkedIn](https://www.linkedin.com/in/nome2)  
-🎮 **Nome 3** - [LinkedIn](https://www.linkedin.com/in/nome3)  
-🔊 **Nome 4** - [LinkedIn](https://www.linkedin.com/in/nome4)  
-📜 **Nome 5** - [LinkedIn](https://www.linkedin.com/in/nome5)  
-🛠 **Nome 6** - [LinkedIn](https://www.linkedin.com/in/nome6)  
-🚀 **Nome 7** - [LinkedIn](https://www.linkedin.com/in/nome7)  
-🔍 **Nome 8** - [LinkedIn](https://www.linkedin.com/in/nome8)  
-=======
 ---
 
 ## 👥 Equipe e Responsabilidades  
@@ -65,7 +54,6 @@ Este é um projeto acadêmico desenvolvido para a disciplina **Trabalho Interdis
 👤 **[Luan Carrieiros]** | 🔗 [LinkedIn](https://www.linkedin.com/in/luan-carrieiros-b7508b237/) 
 
 ---
->>>>>>> 5bad874a79f2496d203d6fab0e7dc3954695c0f6
 
 
 ## 🛠 Como Contribuir  
