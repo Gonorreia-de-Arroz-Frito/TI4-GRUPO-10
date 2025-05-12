@@ -1,4 +1,5 @@
 using System;
+using Mono.Cecil;
 using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -22,19 +23,27 @@ public class Interact : MonoBehaviour
     [SerializeField] float range = 10f;
     [SerializeField] float maxPush = 10f;
     [SerializeField] bool OverridePlayerRotation = true;
-    [SerializeField] float shootForce = 1f;
+    [SerializeField] float releaseImpulse = 2f;
+    [SerializeField] LayerMask layermask;
+    [SerializeField] LayerMask confirmLayermask;
+
+    [Header("Trow Animation")]
+    [SerializeField] float trowMaxChargeSecounds = 1.5f;
+
 
 
     [Header("Config")]
+    [SerializeField] LayerMask trowHelperLayer;
+    [SerializeField] LayerMask wallMask;
     [SerializeField] bool drawRangeGizmo = true;
     [SerializeField] float raycastOffset = 0.5f;
-    [SerializeField] LayerMask layermask;
     [SerializeField] InputActionReference grab;
     [SerializeField] InputActionReference shoot;
     [SerializeField] Camera mainCamera;
 
 
     Vector3 objRotOffset;
+    float objectMass;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -53,15 +62,7 @@ public class Interact : MonoBehaviour
 
         if (grabing)
         {
-            objRotOffset = tf.rotation * (objectOffset + grabableObject.grabOffset);
 
-            pushDir = tf.position + objRotOffset - grabableObject.parentTransform.position;
-            magnitude = pushDir.magnitude;
-            push = math.min(magnitude, maxPush);
-            grabableObject.parentTransform.GetComponent<Rigidbody2D>().linearVelocity = rb.linearVelocity;
-
-            grabableObject.parentTransform.position += push * 0.99f * pushDir.normalized;
-            grabableObject.parentTransform.rotation = tf.rotation;
         }
         else
             raycast();
@@ -92,9 +93,9 @@ public class Interact : MonoBehaviour
         shoot.action.performed -= shootAttempt;
     }
 
+
     void shootAttempt(InputAction.CallbackContext obj)
     {
-        Debug.Log("Attemped shoot");
 
         if (grabableObject != null)
         {
@@ -102,15 +103,13 @@ public class Interact : MonoBehaviour
 
             releaseTarget();
 
-            proj.GetComponent<GrabableObject>().shoot(lookDir, shootForce, false);
+            proj.GetComponent<GrabableObject>().shoot(lookDir, false);
         }
     }
 
 
     private void GrabAttempt(InputAction.CallbackContext obj)
     {
-        Debug.Log("Attemped grab");
-
         if (grabableObject != null)
             releaseTarget();
         else if (target != null)
@@ -122,6 +121,11 @@ public class Interact : MonoBehaviour
         }
     }
 
+
+    Vector2 v3ToV2(Vector3 v3)
+    {
+        return new Vector2(v3.x, v3.y);
+    }
     void grabTarget()
     {
         if (grabableObject != null)
@@ -130,17 +134,34 @@ public class Interact : MonoBehaviour
             target.GetComponentInChildren<BoxCollider2D>().enabled = false;
             if (OverridePlayerRotation)
                 GetComponent<movement>().lookAtMouse = true;
+
+            GetComponent<RelativeJoint2D>().linearOffset = objectOffset + grabableObject.grabOffset;
+            //GetComponent<RelativeJoint2D>(). = 0.005f;
+            // Connect to object
+            GetComponent<RelativeJoint2D>().connectedBody = target.GetComponentInParent<Rigidbody2D>();
+            GetComponent<RelativeJoint2D>().enabled = true;
+            objectMass = target.GetComponentInParent<Rigidbody2D>().mass;
+            target.GetComponentInParent<Rigidbody2D>().mass = 0.1f;
+
         }
     }
 
     void releaseTarget()
     {
+        // Disconect from object
+        GetComponent<RelativeJoint2D>().connectedBody = null;
+        GetComponent<RelativeJoint2D>().enabled = false;
+        target.GetComponentInParent<Rigidbody2D>().mass = objectMass;
+
         target.GetComponentInChildren<BoxCollider2D>().enabled = true;
         grabing = false;
         target = null;
+        GameObject proj = grabableObject.gameObject;
         grabableObject = null;
         if (OverridePlayerRotation)
             GetComponent<movement>().lookAtMouse = false;
+
+        proj.transform.parent.GetComponent<Rigidbody2D>().AddForce(lookDir.normalized * releaseImpulse * proj.transform.parent.GetComponent<Rigidbody2D>().mass, ForceMode2D.Impulse);
     }
 
     private void raycast()

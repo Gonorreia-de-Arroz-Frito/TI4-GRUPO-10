@@ -8,6 +8,8 @@ public class Atributes : MonoBehaviour
 
     [SerializeField] bool destroyOnDeath = true;
 
+    [ReadOnlyAtribute][SerializeField] Animator animator;
+
     public float getHealth()
     {
         return health;
@@ -81,6 +83,8 @@ public class Atributes : MonoBehaviour
         {
             Die();
         }
+
+        animator.SetTrigger("Dmg");
     }
 
     void setHealth(float val)
@@ -107,7 +111,10 @@ public class Atributes : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        if (animator == null)
+        {
+            animator = GetComponent<Animator>();
+        }
     }
 
     // Update is called once per frame

@@ -48,7 +48,7 @@
                     "id": "d371ccd2-7ecc-48d7-a204-de407c67fdea",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Press",
                     "initialStateCheck": false
                 }
             ],
@@ -78,7 +78,7 @@
                 {
                     "name": "",
                     "id": "43e57e34-0da0-48a8-919f-696d91363611",
-                    "path": "<Mouse>/leftButton",
+                    "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard",

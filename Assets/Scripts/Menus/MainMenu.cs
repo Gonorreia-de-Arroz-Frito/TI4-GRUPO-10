@@ -1,12 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene(1);
+        PlayerPrefs.SetString("CenaParaCarregar", "1");
+        SceneManager.LoadScene(2);
     }
 
     public void QuitGame()
