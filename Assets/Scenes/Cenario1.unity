@@ -185,7 +185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -1692660414702642499, guid: 7989a2e012cb984489629c3c1893978e, type: 3}
       propertyPath: m_ColliderPaths.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -1692660414702642499, guid: 7989a2e012cb984489629c3c1893978e, type: 3}
       propertyPath: m_ColliderPaths.Array.data[0].m_Collider
@@ -201,7 +201,7 @@ PrefabInstance:
       objectReference: {fileID: 1015552234}
     - target: {fileID: 2560101188454631781, guid: 7989a2e012cb984489629c3c1893978e, type: 3}
       propertyPath: m_ColliderPaths.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2560101188454631781, guid: 7989a2e012cb984489629c3c1893978e, type: 3}
       propertyPath: m_ColliderPaths.Array.data[0].m_Collider
@@ -3010,6 +3010,10 @@ PrefabInstance:
     - target: {fileID: 7298811816630225940, guid: 7989a2e012cb984489629c3c1893978e, type: 3}
       propertyPath: m_Tiles.Array.data[677].second.m_TileSpriteIndex
       value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7968233624261616464, guid: 7989a2e012cb984489629c3c1893978e, type: 3}
+      propertyPath: m_SortingOrder
+      value: -3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
