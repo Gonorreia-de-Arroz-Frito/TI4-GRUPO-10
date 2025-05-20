@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class movement : MonoBehaviour
 {
-    [ReadOnlyAtribute][SerializeField] Rigidbody2D rb;
-    [ReadOnlyAtribute][SerializeField] Transform tf;
+    [SerializeField] Rigidbody2D rb;
+    [SerializeField] Transform tf;
     [SerializeField] Camera mainCamera;
 
     [Header("Movement")]
@@ -35,8 +35,12 @@ public class movement : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        tf = GetComponent<Transform>();
+        if (rb == null)
+            rb = GetComponent<Rigidbody2D>();
+        if (tf == null)
+            tf = GetComponent<Transform>();
+        if (mainCamera == null)
+            mainCamera = Camera.main;
     }
 
     // Update is called once per frame

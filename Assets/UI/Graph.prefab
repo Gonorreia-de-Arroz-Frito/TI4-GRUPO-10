@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8143434509213699752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1470235498098518110}
+  - component: {fileID: 3704402854084592719}
+  m_Layer: 0
+  m_Name: Graph
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1470235498098518110
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8143434509213699752}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3704402854084592719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8143434509213699752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6dd345f3f245b34cb9311172581cf6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlingToGrid: 0
+  vertexSize: 0.8
+  AdjacencyList:
+  - id: 0
+    name: 
+    position: {x: 0.5, y: 0.5, z: 0.5}
+    neighbors: 02000000010000000400000003000000
+  - id: 1
+    name: 
+    position: {x: -10.5, y: 0.5, z: 0.5}
+    neighbors: 00000000
+  - id: 2
+    name: 
+    position: {x: 0.5, y: 9.5, z: 0.5}
+    neighbors: 00000000
+  - id: 3
+    name: 
+    position: {x: 0.5, y: -4.5, z: 0.5}
+    neighbors: 00000000
+  - id: 4
+    name: 
+    position: {x: 11.5, y: 1.5, z: 0.5}
+    neighbors: 00000000
+  vertexCount: 5
+  vertedLastID: 5

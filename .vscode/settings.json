@@ -56,7 +56,7 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "The-Apostate.sln",
+    "dotnet.defaultSolution": "TI4-GRUPO-10.sln",
     "github.copilot.enable": {
         "*": true,
         "plaintext": false,

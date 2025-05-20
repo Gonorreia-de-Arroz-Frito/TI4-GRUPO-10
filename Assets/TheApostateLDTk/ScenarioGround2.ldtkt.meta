@@ -1,0 +1,3856 @@
+fileFormatVersion: 2
+guid: 2082c21b410496d498ecdd11a6bdb69b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 16
+  _overrideTexture: {instanceID: 0}
+  _sprites:
+  - name: ScenarioGround2_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 108aa589db188524ab30af195dfca529
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 240
+      width: 16
+      height: 16
+    spriteID: e1ab588d864a73947a690345949fa813
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 538d668c9867ed94fbfcb4284472499d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 46ea13ea6651f2246ac4383c5e84a831
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 17e4e1b71e0e2034bbd0e89ee6975d51
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 240
+      width: 16
+      height: 16
+    spriteID: dd6f8e0e9bba99344a9a48717ed3d972
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 03607be1e26b7984eb47adb5d0f822ce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 240
+      width: 16
+      height: 16
+    spriteID: ac05c5cf04ebcd045821f9fb2ae95137
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 112f87d1475dd5841b1ce972c69c79bc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 9c1c0b173d7c27c4789b12e6b5c67bd4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 34239dfe1fb2eb54a9f668747c23ed7d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 240
+      width: 16
+      height: 16
+    spriteID: cad349edbcdc3cd4d92b340507e5ec73
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 555aff2fd1afe0e45bb8d6501083517a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 028da8d568369d742aca18c39e388f44
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 2ce409eaad23c92478806d3df17bf45a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 4f8b95cd007122d45bc3c81d496859a3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 53c3dfae057e55f48ab2a6a14b9c9eae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 9a1835c91f746ed42aafc3ba912cbb2a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 224
+      width: 16
+      height: 16
+    spriteID: bc2973411e5941b4091ac4a1949b8286
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 76d538f8590de294e94f8eeda120b0bf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 5e3c7520d6690824fa7de48ff4a3c861
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 0cbf7429809c98b489618d7e41943a01
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 224
+      width: 16
+      height: 16
+    spriteID: ec26f2dbd3fd8204cbd8ee95ecee8944
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 541ecc8240f1db249b2971dfa0f26895
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 224
+      width: 16
+      height: 16
+    spriteID: ee1a58cb7a935984fbe2102b00031849
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 6c85df2f62c313a4eb681ff932fb9dcc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 224
+      width: 16
+      height: 16
+    spriteID: ae977cca69347e946986de97c58894c6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 8caedcb0107c2674c968fdbbe1e8fb5f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 7b12c1742117a29448427317f65f4278
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 224
+      width: 16
+      height: 16
+    spriteID: c72b86cb57a70e2418c36e01a5c38042
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 74b4d4711b05abd40bb3c1feb1185c53
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 3c57a93e0b5931c41a8da59a8ab05d5f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 208
+      width: 16
+      height: 16
+    spriteID: e94bdb4a4860ec94ab6ed3efe55c9db1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 86792e7536ae05848ae7026b141b0dd3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 208
+      width: 16
+      height: 16
+    spriteID: f27870a95b588e347b62402f3a09df31
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 4e4a4f2f57e461b42ab3c50b87a6cdfd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 7b30f72844ea75141a59429ad111d7df
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 5adf5fba88e7d2e4690a630bd94641c0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 208
+      width: 16
+      height: 16
+    spriteID: a9ec416149a25464a90e1612c98b2bad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 512904a5c42de13449d98284d232a14b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 349c45226cf9ff748a4f100022ff1e9e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 83d6634cf19df5946a1831ce7a76dc27
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 456dbf5cb558cf544bfc1db5535b14f5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 5950d89a08fcf5c4b919e6878d3d2c5b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 16fe750d3d23bd14bb0540a681abeed4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 41016f3d507db4b45b02ad14ccae1ed1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 46b8b25bd3471a542938952f600741df
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 208
+      width: 16
+      height: 16
+    spriteID: f3a0b0356d5a81244ae65330cb24574e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 6516ca2722f7c624eb8b9818ea9832ab
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 8a04206927c39944faf60b2a256aab49
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 192
+      width: 16
+      height: 16
+    spriteID: edd86abc6b6454f4da91e6f1d1e5d876
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 192
+      width: 16
+      height: 16
+    spriteID: ae3708ddff8946e4b8155516fab18616
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 75b5dbc36e325c44188f1b8265a5ee1f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 320398bf31faee64986d936b2d0a307b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 192
+      width: 16
+      height: 16
+    spriteID: e845a2de082baf74c9c7f8d71bdc512c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 192
+      width: 16
+      height: 16
+    spriteID: c1e7ba77247fbfd40865ba29fecda489
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 192
+      width: 16
+      height: 16
+    spriteID: e221fbad6eb737d49a76d78c09ce0d93
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 9e9dd9ad4df79df4aad6beca59fa507d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 002bb907aa8508649b601225eeb148b0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 1e25e0fbcb401514d8905f7d844943c3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 192
+      width: 16
+      height: 16
+    spriteID: d57a5455e94948b41a0f8a74d454099c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 5b7677d5a89610f4aa68a9154dfe908a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 192
+      width: 16
+      height: 16
+    spriteID: c5abc3f08e0f38045876426b5e4171e6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 8f3e219bf5d9b4747a71ec970ae10ef7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 89ee78ad4011801458a30efa697e3109
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 4431f4d5bf5f0954e86516d3066aee6a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 176
+      width: 16
+      height: 16
+    spriteID: c2d782c0d7c794f4f99bcde283de4e81
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 805582a3f587f474285cb19756ab5722
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 9f85d8af13cdeef4ab3f4be3e60425c8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 137a638536db72546aa8b08f32cbb5f8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 89918fad88148d24fa5faabf7412f96a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_71
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 24eda03fd724d814e9f44f1fa9366a20
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 4ceab3c2c2abbdc438aea81fc88b6893
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_73
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 12383ea83edb94e4e8131f8682a67bfc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 8c5404114c28b424b8eaf864070673e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_75
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 23d9b16cc3ed8894f945089f4699ffc5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_76
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 7fc895af55c279f4d998a5337d974841
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_77
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 06a1f22dbc7f4364aa3dd31b059f4f5a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_78
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 176
+      width: 16
+      height: 16
+    spriteID: a026086b95c85e84cbbc99867ba915d0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 89c6e8c29e75e4946b9a63afc17fa1dc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_80
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 14a2408a1154c7f449b4bfb1c10c5969
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_81
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 160
+      width: 16
+      height: 16
+    spriteID: f511e9a90aa3a6645a4ce656768a8c03
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_82
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 160
+      width: 16
+      height: 16
+    spriteID: acd803d2063963042913ed2f8b3ad8ba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_83
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 160
+      width: 16
+      height: 16
+    spriteID: e5ce04ac6a26c124ca5c76350a61e509
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_84
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 4e46267778598944985215fb30ff367e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_85
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 160
+      width: 16
+      height: 16
+    spriteID: c556ffa36e969ed4eb1f9f6d53358b81
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_86
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 160
+      width: 16
+      height: 16
+    spriteID: ef4ddeb27d16cf542a1a0397e04c377a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_87
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 160
+      width: 16
+      height: 16
+    spriteID: ae1ba3a72564cbf4ea169e19e2898f00
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_88
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 1a175874c09b22943b2c528d2f09b22d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_89
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 160
+      width: 16
+      height: 16
+    spriteID: c2c31c6338cf9704494b8789b8324931
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_90
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 86c6ef66fb015d842973a6214a3cfb16
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_91
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 21e513e29d4c11749bcc9f04b4cc8976
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_92
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 7f83d14ebbece7348a1d056c07ea34dc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_93
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 02361b5313191c74cba6134b94c2acae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_94
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 479ea56458ae1844eb38515051562cc5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_95
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 160
+      width: 16
+      height: 16
+    spriteID: de080501930014d44819990adf15e478
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_96
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 624addc8eb411ce4ba397e8a96a492f9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_97
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 6acc6905937c99342a580349057dd263
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_98
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 16b4b0878d108cf46b907dd5308a25f5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_99
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 144
+      width: 16
+      height: 16
+    spriteID: b81ce2252c0fad342a3a36bed0a702c7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_100
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 144
+      width: 16
+      height: 16
+    spriteID: e164743a2a79a11458ce360ca4bd2709
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_101
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 144
+      width: 16
+      height: 16
+    spriteID: f449dd5c3a9d82b4c8127a494d51bd9e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_102
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 35a18cfd5fe936c4d995d37486322a0e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_103
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 144
+      width: 16
+      height: 16
+    spriteID: ba696cb89cdde064f8ce9f8477d49229
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_104
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 9d0cebc62b0997a41a4d33b13f2742d5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_105
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 75c066ca7456eb743b2d8e61714e408e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_106
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 144
+      width: 16
+      height: 16
+    spriteID: bf784b325fe655b48a13efe9583c724c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_107
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 144
+      width: 16
+      height: 16
+    spriteID: d3dfb3d96fdecd2468433dabea3153c2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_108
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 144
+      width: 16
+      height: 16
+    spriteID: f5cba77755b882f4a86ee849a98ee9eb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_109
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 144
+      width: 16
+      height: 16
+    spriteID: c78c31eace2def5478b2435decc5a1d8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_110
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 144
+      width: 16
+      height: 16
+    spriteID: ec203a9fc2ac17e45911584144b4e24d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_111
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 6b27866786fae364684f1d8c79464c5c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_112
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 661e4a8836c634d438b1db7ef22cc732
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_113
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 52d9765d9cecc634a949eaea2c6c85e7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_114
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 128
+      width: 16
+      height: 16
+    spriteID: d8e2659a7591c3c49b03151778a178b3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_115
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 128
+      width: 16
+      height: 16
+    spriteID: cf0c79629fe09d440a3a5a1386bc3ff1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_116
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 128
+      width: 16
+      height: 16
+    spriteID: f5c3f43649cbb08459a23016c969116e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_117
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 01e8dbafd8962ea44ae8bbf52d0eb61e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_118
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 83e2bdc69af702c4fb3593739b4680ba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_119
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 11418c6c52b33f546bd4376fc421a57f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_120
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 128
+      width: 16
+      height: 16
+    spriteID: a01fe30d71a2b504897f7c508e30cba6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_121
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 128
+      width: 16
+      height: 16
+    spriteID: d2d290113a677ae47957d292cabac461
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_122
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 1f734d6121f35254b86c51adeff922e8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_123
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 901a2133fa92111468d00b8c147f563f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_124
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 51f0c16bbbf6f884480c4271111b6455
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_125
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 7e1c37a94c95a364f99378bbe70cdadc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_126
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 128
+      width: 16
+      height: 16
+    spriteID: edec7fe699ae68746b3c4f63c349f653
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_127
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 058ad9595f113d34aabce3e897c93a5a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_128
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 112
+      width: 16
+      height: 16
+    spriteID: d1e99fe6b5d64e54985319ed40c89e2b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_129
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 704b71f4f622fed4a9580ee2b6b356ec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_130
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 112
+      width: 16
+      height: 16
+    spriteID: e8d7c2a65ef585b419405115b0cb4678
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_131
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 6f28759beb5495d4682f5cad9c56a65e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_132
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 112
+      width: 16
+      height: 16
+    spriteID: eeb7330e26a4d6a4bbcd9a397c64f90f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_133
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 339d1f5809304534a888b7e9b2cf6276
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_134
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 5ea2ee01421b81241980819b4ab33573
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_135
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 79725128fd2876f428dd3f4991074927
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_136
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 112
+      width: 16
+      height: 16
+    spriteID: f2ad295b3173e9045970456a6e1eb060
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_137
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c1e61e8db6a95844ca392bae0267bcf9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_138
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 112
+      width: 16
+      height: 16
+    spriteID: df4c38273bebc46419e51d2c7ccc95ce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_139
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 8a58969f342f0384ca654ac123fc3992
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_140
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 112
+      width: 16
+      height: 16
+    spriteID: ca25b77f62f188e438a05ea28884ea53
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_141
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 112
+      width: 16
+      height: 16
+    spriteID: cb08556a550729845930e7dcf6b332b9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_142
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 112
+      width: 16
+      height: 16
+    spriteID: e4e650acac17a8c4a9514d2e02751388
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_143
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 1714c5b409f4aae4e8b91258d27f5750
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_144
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 749298ce833c7de489223c51fd3254e8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_145
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 974955f1c55adfb4d923dd7237469b0f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_146
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 96
+      width: 16
+      height: 16
+    spriteID: b40e523d699414b4583e51849871abf5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_147
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 340865446b3748147927bd931625aa43
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_148
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 6af4dfd51aaeaf345be965f75a04aa5d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_149
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 7daab83b504bb7143a74c71d4a21cead
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_150
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 16
+      height: 16
+    spriteID: c4d8d73336df39c4abb0fedc91a3f8c9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_151
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 128b330c93fbff74eb6f330d744f6ad8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_152
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 1b7f619e52f87d24fab6b87c5e103d95
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_153
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 4a701cc3b1181d24889ab7bb0a804ba8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_154
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 10ff46b164c99de4299b6c662deeba54
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_155
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 2faa2c41dcf4f0b4294acd501199b5d3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_156
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 96
+      width: 16
+      height: 16
+    spriteID: bb4aaf965792eb94da4d884fcbd4a511
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_157
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 96
+      width: 16
+      height: 16
+    spriteID: f5a38b0f65fb2ac44b5c680e2206a445
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_158
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 7944eabdfb490854ea947982904276d9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_159
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d5799b92e7b98fa4987484ab0ee908af
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_160
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 80
+      width: 16
+      height: 16
+    spriteID: acbf258c9d7212a4896a3bffd6e6fbb2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_161
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 22feafed80ce54d45a4a6e06fbbcd63e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_162
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 13f57dd5783b82f479502b4ed73c5370
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_163
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 7cd20e2edf6a9154682a2fd3294e6b3d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_164
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 33473b8ce416ecd40a4ababad8b77c90
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_165
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 80
+      width: 16
+      height: 16
+    spriteID: df22dc2e1c92f074883c7c478ed2b034
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_166
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 6108212fdee397340bca972651617dc4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_167
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 5f13d929a5882b14c800527bc3c816d4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_168
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 057f4f6ab8843de4187f227a249d385c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_169
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 80
+      width: 16
+      height: 16
+    spriteID: aca6bb11b0f9b3849963b80ca95c3a43
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_170
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 756effac48e063644b34bf01a1d84cb5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_171
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 7b7575dc305d88142a39065cc6c6bea7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_172
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 84a97b5c1ce83e14eb7d584446d579e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_173
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 80
+      width: 16
+      height: 16
+    spriteID: fc96bfa1e54998c48bb68a50e5ae4696
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_174
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 80
+      width: 16
+      height: 16
+    spriteID: b4dc0cab4ab82d6419fd75e3df75d6dd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_175
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 80
+      width: 16
+      height: 16
+    spriteID: f421f7ff36881564cb5c2b089f714c0b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_176
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 96b9e0be2e89f5147a20a27fe30839f1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_177
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 4f40b395f4d04b947ba8e3ad3698850f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_178
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 4f17505ad8c43d140a8e3a1fd25e8bc1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_179
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 49fde70c892b8084f8a9462e30ba746a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_180
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 346f0c6bdaa9b1141b6632595e330e4a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_181
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 64
+      width: 16
+      height: 16
+    spriteID: a023337b62ff39f4a8f808578d9577d6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_182
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 8cad0a74d917bf549869d2caa4e2b19e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_183
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 64
+      width: 16
+      height: 16
+    spriteID: fa548057770e30541b7662c1eb9ece1e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_184
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 64
+      width: 16
+      height: 16
+    spriteID: a1cf1656b91bc8d4cb49bb2ebd412ca2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_185
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 0688fe21fb016aa469a9c2eb2fe06e22
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_186
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 64
+      width: 16
+      height: 16
+    spriteID: b836743ff0f041d4ea05f6ec6f7e9d04
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_187
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 5956f98ad5a78b9419620f8b4800783b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_188
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 64
+      width: 16
+      height: 16
+    spriteID: e8fd84e20002c3048a321313efc95441
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_189
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 80657b83afd364540a4b25c0952688fe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_190
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 64
+      width: 16
+      height: 16
+    spriteID: e42bae8bef9b07c4d8debde863016742
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_191
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 78ccf0f1149270943a0aa5381d38578e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_192
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 16
+      height: 16
+    spriteID: d0323dbc6541ad844992d1c1333ea3da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_193
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 48
+      width: 16
+      height: 16
+    spriteID: c61f181e166e65541a32c2874791c282
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_194
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 0c200bdb2a7cfce46bc2e9965b5881bf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_195
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 48
+      width: 16
+      height: 16
+    spriteID: c9ee2cad15419d8429961580c2f78bda
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_196
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 822c6ff049612ae4cbfd6aa9965ad4ea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_197
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 49607a8e1ac2e734491f0f8e8950a2f1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_198
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 66cacfc5902b1d746b01d1f1fe5b4d39
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_199
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 3f77f305ea029934294f827391f2a1ab
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_200
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 1890383edf8ec6c4b868d11b13f5ff02
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_201
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 48
+      width: 16
+      height: 16
+    spriteID: d6e8f859a7574e74f9deaabfd4b05487
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_202
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 9e550e0fb6832c647ab21492a03c6b5e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_203
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 9b7c051fcef937d439dd9611e126962a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_204
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 48
+      width: 16
+      height: 16
+    spriteID: d94c58cb613e3f3469aeab2623334eba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_205
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 71efb2f858ecff7489b9a2a46de0ea9d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_206
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 48
+      width: 16
+      height: 16
+    spriteID: cfa339a4a293a154faf8121e6dd22d92
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_207
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 48
+      width: 16
+      height: 16
+    spriteID: f66580007d0d82644af33c9548d37c07
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_208
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 16
+      height: 16
+    spriteID: f6ad37b5961b1294da8d7e8085773cc3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_209
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 7ddbbf3402be0b24c94a9c1767f0fe4f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_210
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 761ef6c700920ad48baea71f9c63374e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_211
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 15e7d1f38f485ba4e917efaf5110e90c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_212
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 16
+      height: 16
+    spriteID: f7c1bebeb701c1547ab0330086a0ce58
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_213
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 32
+      width: 16
+      height: 16
+    spriteID: e28e4cfb324463a478246a7fd88ae3f8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_214
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 70f403bf9af57bf44bac980b78be576a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_215
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 44c6723b6691a0d40bdaa48b7e46a620
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_216
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 32
+      width: 16
+      height: 16
+    spriteID: f48a48ace028f5043baf8dc9925ca9a9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_217
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 4936179a213ad3f459dcd16bc6328636
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_218
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 582f937574ec04c4faace2aed1690b46
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_219
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 13e668e6a44dedf4ab9650f7460b76b1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_220
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 7e588f85b9257a1449d14170dc4d8536
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_221
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 901fcdc88b5285948b46c669d517d0bf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_222
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 781a923b83432904eb6ba2b938a48bdf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_223
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 32
+      width: 16
+      height: 16
+    spriteID: a9d55bbe544ccfc4bbe924159513626e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_224
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 7286a1109831f404881359cfc5e1582f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_225
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 3f44dc8a7c5523f43acff01834a966b4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_226
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 4b8c2a76c60618846ac83c56227d6641
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_227
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 16
+      width: 16
+      height: 16
+    spriteID: ead49b00783b1514da9a6d5708c8684c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_228
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 6309b0426c2fc5249924a5a37f31b13f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_229
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 2f13b83822c0e8e4495593b834a84bbb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_230
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 93dbe1134fdc0eb459761403d4aee389
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_231
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 82e8ba1fa0fb45e4183a3f76e5e1eb8e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_232
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 16
+      width: 16
+      height: 16
+    spriteID: e1f311b53ce3ece43ae5e89cf2884736
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_233
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 26ab4c1da7e59bb4db02794e561246ea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_234
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 16
+      width: 16
+      height: 16
+    spriteID: cab868e271528cc4b951d3c4acc8e570
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_235
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 8c161ceb6f4a6e0439139ef599f663c3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_236
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 607b5f4e3ae33a444986e04c3e333b5d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_237
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 802d1d9b14dc0e84693c173eab3cf76a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_238
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 16
+      width: 16
+      height: 16
+    spriteID: c213b4fe31eda3941bc124f0e1c86ea6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_239
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 8c7df4c22c26fe04aa8b3d35cd0fa1b1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_240
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 539ab9c3e5284aa41b0fb3cf0248fba3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_241
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 0
+      width: 16
+      height: 16
+    spriteID: ccff408b9deee9b479c4ecc42a9c4b9d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_242
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 16
+      height: 16
+    spriteID: e2e3ad9cbff0ca44296f03c4cd1d0184
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_243
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 5be44b626c26f9844a62b9e25360064a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_244
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 4bdab2dea04b6b949a2b3f4596c40072
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_245
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 0
+      width: 16
+      height: 16
+    spriteID: d49603d519e4aac469a615b073e700e5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_246
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 3b4910f045826c0498399afc74d6b1e4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_247
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 5143871cd9b480c4d88a8294b9352bc9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_248
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 16
+      height: 16
+    spriteID: b9b70f9d3f7fe494bb34ab078652380a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_249
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 96d1a904773f6d84596312490fb1831e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_250
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 0a35da4d213d81a49b69c76039b87266
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_251
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 41d201a5d26130a4dae7ffef346f34ba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_252
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 16
+      height: 16
+    spriteID: ab60dca828c07284b8ac88df178b22e8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_253
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 41f94fb9016f6a04b8bba96cc83809a8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_254
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 281c7e541202d5b46a15247a37571f2b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioGround2_255
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 0
+      width: 16
+      height: 16
+    spriteID: bb70dd79b97c2ae4485615cf48cdb737
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []
+  _artifacts: {instanceID: 0}
