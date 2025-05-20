@@ -27,7 +27,7 @@
                     "name": "Attack",
                     "type": "Button",
                     "id": "6c2ab1b8-8984-453a-af3d-a3c78ae1679a",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -36,7 +36,7 @@
                     "name": "Interact",
                     "type": "Button",
                     "id": "852140f2-7766-474d-8707-702459ba45f3",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "Hold",
                     "initialStateCheck": false
@@ -82,6 +82,24 @@
                     "type": "Button",
                     "id": "641cd816-40e6-41b4-8c3d-04687c349290",
                     "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "trow",
+                    "type": "Button",
+                    "id": "f12d88c1-bd25-4fc3-b1c0-abeca352ae3d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "autodamage",
+                    "type": "Button",
+                    "id": "b8974942-2af2-4c9c-84ce-181b7c18fc84",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -470,6 +488,28 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Crouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "04bf0913-43d7-4bd3-bcec-fe80c19b6d0f",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "trow",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cfb124b9-76cd-463c-ba37-ecfdb9b524fd",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "autodamage",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

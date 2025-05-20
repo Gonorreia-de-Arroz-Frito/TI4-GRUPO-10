@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: a6d2d2c1288a03844afbe5dee3fafbf3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5220547350248190707
+    second: padre_spritesheet_0
+  - first:
+      213: -3043248884534423299
+    second: padre_spritesheet_1
+  - first:
+      213: 1319091641312173277
+    second: padre_spritesheet_2
+  - first:
+      213: 8973376403559978649
+    second: padre_spritesheet_3
+  - first:
+      213: -2950191620715322043
+    second: padre_spritesheet_4
+  - first:
+      213: 4112622047566586209
+    second: padre_spritesheet_5
+  - first:
+      213: -3851470038260433378
+    second: padre_spritesheet_6
+  - first:
+      213: 2646766931954055793
+    second: padre_spritesheet_7
+  - first:
+      213: -8770735796586206672
+    second: padre_spritesheet_8
+  - first:
+      213: 8075374892255302704
+    second: padre_spritesheet_9
+  - first:
+      213: -809591422239348486
+    second: padre_spritesheet_10
+  - first:
+      213: -5189962274671668338
+    second: padre_spritesheet_11
+  - first:
+      213: -625083129616210522
+    second: padre_spritesheet_12
+  - first:
+      213: -2831202227841724536
+    second: padre_spritesheet_13
+  - first:
+      213: -6423446783276258869
+    second: padre_spritesheet_14
+  - first:
+      213: 8275769564136702376
+    second: padre_spritesheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: padre_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d895738d3ec87b0800000000000000
+      internalID: -5220547350248190707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padre_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0d83a634534c5d0800000000000000
+      internalID: -3043248884534423299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padre_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc5992ebda5e4210800000000000000
+      internalID: 1319091641312173277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padre_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996901acb46d78c70800000000000000
+      internalID: 8973376403559978649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padre_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545edeb0a50de07d0800000000000000
+      internalID: -2950191620715322043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padre_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16165a076f7f21930800000000000000
+      internalID: 4112622047566586209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padre_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e3d6af764dc8ac0800000000000000
+      internalID: -3851470038260433378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padre_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a3f5e50843bb420800000000000000
+      internalID: 2646766931954055793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padre_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a2da92346184680800000000000000
+      internalID: -8770735796586206672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padre_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0345cf8edae711070800000000000000
+      internalID: 8075374892255302704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padre_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8683014e0c3c4f0800000000000000
+      internalID: -809591422239348486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padre_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83548c0fcc89f7b0800000000000000
+      internalID: -5189962274671668338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padre_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5e22894324357f0800000000000000
+      internalID: -625083129616210522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padre_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f033af29c85b8d0800000000000000
+      internalID: -2831202227841724536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padre_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc96139fe255bd6a0800000000000000
+      internalID: -6423446783276258869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padre_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a18b59529079d270800000000000000
+      internalID: 8275769564136702376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1c4da1e0e9cf07945813a2d2c3f4b93c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      padre_spritesheet_0: -5220547350248190707
+      padre_spritesheet_1: -3043248884534423299
+      padre_spritesheet_10: -809591422239348486
+      padre_spritesheet_11: -5189962274671668338
+      padre_spritesheet_12: -625083129616210522
+      padre_spritesheet_13: -2831202227841724536
+      padre_spritesheet_14: -6423446783276258869
+      padre_spritesheet_15: 8275769564136702376
+      padre_spritesheet_2: 1319091641312173277
+      padre_spritesheet_3: 8973376403559978649
+      padre_spritesheet_4: -2950191620715322043
+      padre_spritesheet_5: 4112622047566586209
+      padre_spritesheet_6: -3851470038260433378
+      padre_spritesheet_7: 2646766931954055793
+      padre_spritesheet_8: -8770735796586206672
+      padre_spritesheet_9: 8075374892255302704
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
