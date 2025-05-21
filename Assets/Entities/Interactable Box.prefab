@@ -157,10 +157,10 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8755a78b663b0fc4b9f801a5ea7d3958, type: 2}
+  - {fileID: 2100000, guid: 19af60798cb3c3d48a4db91cba815d51, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -180,8 +180,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: -4607086458734182907, guid: 0f5a922ab68157a4f97394bf8e4fc171, type: 3}
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -7077239957980303196, guid: 1f32529f5b83d4c4983c1d16e3e6f31d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

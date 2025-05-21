@@ -7,6 +7,9 @@
         _NormalMap("Normal Map", 2D) = "bump" {}
         _ZWrite("ZWrite", Float) = 0
 
+        _FlashColor("FlashColor", Color) = (1,1,1,1)
+        [Toggle]_Flash("Flash", Float) = 0
+
         // Legacy properties. They're here so that materials using this shader can gracefully fallback to the legacy sprite shader.
         [HideInInspector] _Color("Tint", Color) = (1,1,1,1)
         [HideInInspector] _RendererColor("RendererColor", Color) = (1,1,1,1)
@@ -72,6 +75,8 @@
             // NOTE: Do not ifdef the properties here as SRP batcher can not handle different layouts.
             CBUFFER_START(UnityPerMaterial)
                 half4 _Color;
+                half4 _FlashColor;
+                float _Flash;
             CBUFFER_END
 
             #if USE_SHAPE_LIGHT_TYPE_0
@@ -115,10 +120,18 @@
             {
                 const half4 main = i.color * SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, i.uv);
                 const half4 mask = SAMPLE_TEXTURE2D(_MaskTex, sampler_MaskTex, i.uv);
+
+                half4 finalColor = main;
+
+                if(_Flash == 1)
+                {
+                    finalColor.rgb = lerp(finalColor.rgb, _FlashColor.rgb, _FlashColor.a);
+                }
+
                 SurfaceData2D surfaceData;
                 InputData2D inputData;
 
-                InitializeSurfaceData(main.rgb, main.a, mask, surfaceData);
+                InitializeSurfaceData(finalColor.rgb, finalColor.a, mask, surfaceData);
                 InitializeInputData(i.uv, i.lightingUV, inputData);
 
                 SETUP_DEBUG_TEXTURE_DATA_2D_NO_TS(inputData, i.positionWS, i.positionCS, _MainTex);
