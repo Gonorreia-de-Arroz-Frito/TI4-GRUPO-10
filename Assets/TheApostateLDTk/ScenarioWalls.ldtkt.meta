@@ -27,9 +27,9 @@ ScriptedImporter:
     spriteID: 0a1ee3a88e842cc4b90d4e7d35bf892a
     spriteOutline:
     - shape:
-      - {x: 8, y: -3}
-      - {x: 3, y: -3}
-      - {x: 3, y: -8}
+      - {x: 8, y: -5}
+      - {x: 5, y: -5}
+      - {x: 5, y: -8}
       - {x: 8, y: -8}
     tessellationDetail: 0
   - name: ScenarioWalls_1
@@ -47,8 +47,8 @@ ScriptedImporter:
     spriteID: b54f805ada111564695e515ab8f195af
     spriteOutline:
     - shape:
-      - {x: 8, y: -3}
-      - {x: -8, y: -3}
+      - {x: 8, y: -5}
+      - {x: -8, y: -5}
       - {x: -8, y: -8}
       - {x: 8, y: -8}
     tessellationDetail: 0
@@ -67,10 +67,10 @@ ScriptedImporter:
     spriteID: fac1ad1210fed6c499c59f91e27ad918
     spriteOutline:
     - shape:
-      - {x: -3, y: -3}
-      - {x: -8, y: -3}
+      - {x: -5, y: -5}
+      - {x: -8, y: -5}
       - {x: -8, y: -8}
-      - {x: -3, y: -8}
+      - {x: -5, y: -8}
     tessellationDetail: 0
   - name: ScenarioWalls_3
     originalName: 
@@ -87,10 +87,10 @@ ScriptedImporter:
     spriteID: cddaef60fdbf40546b3160a76c04152f
     spriteOutline:
     - shape:
-      - {x: 8, y: 7}
-      - {x: -8, y: 7}
-      - {x: -8, y: -7}
-      - {x: 8, y: -7}
+      - {x: 8, y: 3}
+      - {x: -6, y: 3}
+      - {x: -6, y: -3}
+      - {x: 8, y: -3}
     tessellationDetail: 0
   - name: ScenarioWalls_4
     originalName: 
@@ -107,12 +107,10 @@ ScriptedImporter:
     spriteID: ee39ce4d50e0ad24189353d46d9186b7
     spriteOutline:
     - shape:
-      - {x: 8, y: -6}
-      - {x: 8, y: 6}
-      - {x: 7, y: 7}
-      - {x: -8, y: 7}
-      - {x: -8, y: -7}
-      - {x: 7, y: -7}
+      - {x: 7, y: 3}
+      - {x: -8, y: 3}
+      - {x: -8, y: -3}
+      - {x: 7, y: -3}
     tessellationDetail: 0
   - name: ScenarioWalls_5
     originalName: 
@@ -477,8 +475,8 @@ ScriptedImporter:
     spriteOutline:
     - shape:
       - {x: 8, y: 8}
-      - {x: 3, y: 8}
-      - {x: 3, y: -8}
+      - {x: 5, y: 8}
+      - {x: 5, y: -8}
       - {x: 8, y: -8}
     tessellationDetail: 0
   - name: ScenarioWalls_26
@@ -516,10 +514,10 @@ ScriptedImporter:
     spriteID: e86fb746da7c6ea4a904a97065770f81
     spriteOutline:
     - shape:
-      - {x: -3, y: 8}
+      - {x: -5, y: 8}
       - {x: -8, y: 8}
       - {x: -8, y: -8}
-      - {x: -3, y: -8}
+      - {x: -5, y: -8}
     tessellationDetail: 0
   - name: ScenarioWalls_28
     originalName: 
@@ -536,14 +534,10 @@ ScriptedImporter:
     spriteID: b5afb116321f0ef4a99b20f71d4cdffd
     spriteOutline:
     - shape:
-      - {x: 7, y: -5}
-      - {x: 7, y: 5}
-      - {x: 5, y: 7}
-      - {x: -5, y: 7}
-      - {x: -7, y: 5}
-      - {x: -7, y: -5}
-      - {x: -5, y: -7}
-      - {x: 5, y: -7}
+      - {x: 4, y: 4}
+      - {x: -4, y: 4}
+      - {x: -4, y: -4}
+      - {x: 4, y: -4}
     tessellationDetail: 0
   - name: ScenarioWalls_29
     originalName: 
@@ -886,9 +880,9 @@ ScriptedImporter:
     spriteOutline:
     - shape:
       - {x: 8, y: 8}
-      - {x: 3, y: 8}
-      - {x: 3, y: 3}
-      - {x: 8, y: 3}
+      - {x: 5, y: 8}
+      - {x: 5, y: 5}
+      - {x: 8, y: 5}
     tessellationDetail: 0
   - name: ScenarioWalls_51
     originalName: 
@@ -907,8 +901,8 @@ ScriptedImporter:
     - shape:
       - {x: 8, y: 8}
       - {x: -8, y: 8}
-      - {x: -8, y: 3}
-      - {x: 8, y: 3}
+      - {x: -8, y: 5}
+      - {x: 8, y: 5}
     tessellationDetail: 0
   - name: ScenarioWalls_52
     originalName: 
@@ -925,10 +919,10 @@ ScriptedImporter:
     spriteID: 8fc3f937fe0ef4c489ede73a829515d0
     spriteOutline:
     - shape:
-      - {x: -3, y: 8}
+      - {x: -5, y: 8}
       - {x: -8, y: 8}
-      - {x: -8, y: 3}
-      - {x: -3, y: 3}
+      - {x: -8, y: 5}
+      - {x: -5, y: 5}
     tessellationDetail: 0
   - name: ScenarioWalls_53
     originalName: 
@@ -1323,9 +1317,9 @@ ScriptedImporter:
     spriteOutline:
     - shape:
       - {x: 8, y: 8}
-      - {x: 3, y: 8}
-      - {x: 3, y: -3}
-      - {x: -8, y: -3}
+      - {x: 5, y: 8}
+      - {x: 5, y: -5}
+      - {x: -8, y: -5}
       - {x: -8, y: -8}
       - {x: 8, y: -8}
     tessellationDetail: 0
@@ -1344,9 +1338,9 @@ ScriptedImporter:
     spriteID: 9d7e7d688b85788439c8bc2b0743f1b3
     spriteOutline:
     - shape:
-      - {x: 8, y: -3}
-      - {x: -3, y: -3}
-      - {x: -3, y: 8}
+      - {x: 8, y: -5}
+      - {x: -5, y: -5}
+      - {x: -5, y: 8}
       - {x: -8, y: 8}
       - {x: -8, y: -8}
       - {x: 8, y: -8}
@@ -1731,9 +1725,9 @@ ScriptedImporter:
     - shape:
       - {x: 8, y: 8}
       - {x: -8, y: 8}
-      - {x: -8, y: 3}
-      - {x: 3, y: 3}
-      - {x: 3, y: -8}
+      - {x: -8, y: 5}
+      - {x: 5, y: 5}
+      - {x: 5, y: -8}
       - {x: 8, y: -8}
     tessellationDetail: 0
   - name: ScenarioWalls_101
@@ -1751,12 +1745,12 @@ ScriptedImporter:
     spriteID: a364c5ad282551047af9bad438a1b69f
     spriteOutline:
     - shape:
-      - {x: -3, y: 3}
-      - {x: 8, y: 3}
+      - {x: -5, y: 5}
+      - {x: 8, y: 5}
       - {x: 8, y: 8}
       - {x: -8, y: 8}
       - {x: -8, y: -8}
-      - {x: -3, y: -8}
+      - {x: -5, y: -8}
     tessellationDetail: 0
   - name: ScenarioWalls_102
     originalName: 
@@ -2952,11 +2946,10 @@ ScriptedImporter:
     spriteID: 44ac0faefec067a4b9a703ab422f4692
     spriteOutline:
     - shape:
-      - {x: 8, y: 2}
+      - {x: 8, y: 5}
       - {x: 8, y: 8}
       - {x: -8, y: 8}
-      - {x: -8, y: 1}
-      - {x: 7, y: 1}
+      - {x: -8, y: 5}
     tessellationDetail: 0
   - name: ScenarioWalls_178
     originalName: 
@@ -2975,8 +2968,9 @@ ScriptedImporter:
     - shape:
       - {x: 8, y: 8}
       - {x: -8, y: 8}
-      - {x: -8, y: 1}
-      - {x: 1, y: -8}
+      - {x: -8, y: 5}
+      - {x: 5, y: 5}
+      - {x: 5, y: -8}
       - {x: 8, y: -8}
     tessellationDetail: 0
   - name: ScenarioWalls_179
@@ -3334,11 +3328,10 @@ ScriptedImporter:
     spriteID: a0fb74a8f46671949af4d97132f93128
     spriteOutline:
     - shape:
-      - {x: -1, y: 7}
-      - {x: -2, y: 8}
+      - {x: -5, y: 8}
       - {x: -8, y: 8}
       - {x: -8, y: -8}
-      - {x: -1, y: -8}
+      - {x: -5, y: -8}
     tessellationDetail: 0
   - name: ScenarioWalls_202
     originalName: 
@@ -3371,9 +3364,8 @@ ScriptedImporter:
     spriteOutline:
     - shape:
       - {x: 8, y: 8}
-      - {x: 2, y: 8}
-      - {x: 1, y: 7}
-      - {x: 1, y: -8}
+      - {x: 5, y: 8}
+      - {x: 5, y: -8}
       - {x: 8, y: -8}
     tessellationDetail: 0
   - name: ScenarioWalls_204
@@ -3731,8 +3723,9 @@ ScriptedImporter:
     spriteID: fa94ca2d31793ae408be5d522b5f0481
     spriteOutline:
     - shape:
-      - {x: 8, y: 0}
-      - {x: -1, y: 8}
+      - {x: 8, y: -5}
+      - {x: -5, y: -5}
+      - {x: -5, y: 8}
       - {x: -8, y: 8}
       - {x: -8, y: -8}
       - {x: 8, y: -8}
@@ -3752,9 +3745,8 @@ ScriptedImporter:
     spriteID: a698452ea91820a48986344a5b2f9f68
     spriteOutline:
     - shape:
-      - {x: 8, y: -2}
-      - {x: 7, y: -1}
-      - {x: -8, y: -1}
+      - {x: 8, y: -5}
+      - {x: -8, y: -5}
       - {x: -8, y: -8}
       - {x: 8, y: -8}
     tessellationDetail: 0
@@ -3774,8 +3766,9 @@ ScriptedImporter:
     spriteOutline:
     - shape:
       - {x: 8, y: 8}
-      - {x: -1, y: 8}
-      - {x: -8, y: 0}
+      - {x: 5, y: 8}
+      - {x: 5, y: -5}
+      - {x: -8, y: -5}
       - {x: -8, y: -8}
       - {x: 8, y: -8}
     tessellationDetail: 0
