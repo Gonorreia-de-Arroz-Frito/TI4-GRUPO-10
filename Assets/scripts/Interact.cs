@@ -29,6 +29,7 @@ public class Interact : MonoBehaviour
     [SerializeField] float releaseImpulse = 2f;
     [SerializeField] LayerMask layermask;
     [SerializeField] LayerMask confirmLayermask;
+    [SerializeField] public int temporaryLayer;
 
     [Header("Trow Animation")]
     [SerializeField] float trowMaxChargeSecounds = 1.5f;
@@ -44,10 +45,12 @@ public class Interact : MonoBehaviour
     [SerializeField] InputActionReference shoot;
     [SerializeField] InputActionReference damageMyself;
     [SerializeField] Camera mainCamera;
-
+    [SerializeField] Transform cameraTransform;
+    [SerializeField] float pixelsPerUnit = 16;
 
     Vector3 objRotOffset;
     float objectMass;
+    int savedLayer;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -83,16 +86,26 @@ public class Interact : MonoBehaviour
 
         if (OverridePlayerRotation)
         {
+            /*
             if (target != null)
             {
-                playerMovement.lookAtMouse = true;
+                playerMovement.feetToTorso = true;
             }
             else
             {
-                playerMovement.lookAtMouse = false;
+                playerMovement.feetToTorso = false;
             }
+            */
         }
 
+        Vector3 camPos = tf.position;
+        camPos.z = cameraTransform.position.z;
+
+        float unitPerPixel = 1f / pixelsPerUnit;
+        camPos.x = Mathf.Round(camPos.x / unitPerPixel - unitPerPixel / 2) * unitPerPixel + unitPerPixel / 2;
+        camPos.y = Mathf.Round(camPos.y / unitPerPixel - unitPerPixel / 2) * unitPerPixel + unitPerPixel / 2;
+
+        cameraTransform.position = camPos;
     }
 
     void OnEnable()
@@ -148,8 +161,12 @@ public class Interact : MonoBehaviour
         {
             grabing = true;
             target.GetComponentInChildren<BoxCollider2D>().enabled = false;
+
+            /*
             if (OverridePlayerRotation)
-                playerMovement.lookAtMouse = true;
+                playerMovement.feetToTorso = true;
+
+            */
 
             relativeJoint.linearOffset = objectOffset + grabableObject.grabOffset;
             //relativeJoint. = 0.005f;
@@ -162,11 +179,15 @@ public class Interact : MonoBehaviour
             // animation
             animator.SetBool("grabing", true);
 
+            savedLayer = target.transform.parent.gameObject.layer;
+            target.transform.parent.gameObject.layer = temporaryLayer;
         }
     }
 
     void releaseTarget()
     {
+        target.transform.parent.gameObject.layer = savedLayer;
+
         // Disconect from object
         relativeJoint.connectedBody = null;
         relativeJoint.enabled = false;
@@ -177,9 +198,10 @@ public class Interact : MonoBehaviour
         target = null;
         GameObject proj = grabableObject.gameObject;
         grabableObject = null;
+        /*
         if (OverridePlayerRotation)
-            playerMovement.lookAtMouse = false;
-
+            playerMovement.feetToTorso = false;
+        */
         // animation
         animator.SetBool("grabing", false);
 
