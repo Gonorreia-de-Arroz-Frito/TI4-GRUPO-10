@@ -68,7 +68,7 @@ public class movement : MonoBehaviour
     {
 
         TorsoLookDir = mainCamera.ScreenToWorldPoint(Input.mousePosition) - transform.position;
-        if (wishDir != Vector2.zero || feetToTorso)
+        if (wishDir != Vector2.zero && !feetToTorso)
             FeetLookDir = wishDir;
         else
             FeetLookDir = TorsoLookDir;
