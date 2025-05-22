@@ -17,8 +17,8 @@ TagManager:
   - PlayerAtack
   - EnemyAtack
   - Walls
-  - 
-  - 
+  - PlayerHitbox
+  - EnemyHitbox
   - 
   - 
   - 
