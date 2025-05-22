@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         PlayerPrefs.SetString("CenaParaCarregar", "1");
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Cenario1");
     }
 
     public void QuitGame()
