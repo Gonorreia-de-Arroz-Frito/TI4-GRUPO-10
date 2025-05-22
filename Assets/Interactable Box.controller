@@ -34,7 +34,7 @@ AnimatorStateMachine:
   - {fileID: 6143104711692592277}
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 440, y: -120, z: 0}
+  m_AnyStatePosition: {x: 570, y: -80, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
@@ -75,7 +75,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: flash
-  m_Speed: 1
+  m_Speed: 4
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 7170687870927279210}
@@ -89,7 +89,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: ebf0ac32e3b428146b230b095fd3f9b2, type: 2}
+  m_Motion: {fileID: 7400000, guid: 6f315bb64473fda4f9d3a0ca3b8ae078, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

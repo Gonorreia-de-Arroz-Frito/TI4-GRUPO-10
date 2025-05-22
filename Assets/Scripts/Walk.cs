@@ -3,13 +3,20 @@ using UnityEngine;
 public class Walk : MonoBehaviour
 {
     public float speed = 5f;
-    private Animator animator;
-    private Rigidbody2D rb;
+    [SerializeField] Animator animator;
+    [SerializeField] Rigidbody2D rb;
 
     private void Start()
     {
-        animator = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
+        if (rb == null)
+        {
+            rb = GetComponent<Rigidbody2D>();
+        }
+
+        if (animator == null)
+        {
+            animator = GetComponent<Animator>();
+        }
     }
 
     void Update()
@@ -19,5 +26,6 @@ public class Walk : MonoBehaviour
 
         // Ativa a animação de andar se estiver se movendo
         animator.SetBool("isWalking", movement != Vector2.zero);
+        //animator.SetFloat("walkSpeed", movement.magnitude);
     }
 }
