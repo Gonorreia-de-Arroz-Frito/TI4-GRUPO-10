@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using System;
 
-
+// ---------- GraphMap ----------
 [Serializable]
 public class GraphMap
 {
@@ -43,7 +43,6 @@ public class GraphMap
                 return;
             }
         }
-
         entries.Add(new Entry(key, value));
     }
 
@@ -69,7 +68,24 @@ public class GraphMap
     }
 }
 
+// ---------- Enums ----------
+public enum ZoneType
+{
+    Neutral,
+    SafeZone,
+    DangerZone,
+    PatrolZone,
+    ObjectiveZone
+}
 
+public enum EnemyBehaviorType
+{
+    Neutral,
+    Cautious,    // Evita DangerZone, prefere SafeZone
+    Aggressive   // Ignora DangerZone, prioriza ObjectiveZone
+}
+
+// ---------- Vertex ----------
 [System.Serializable]
 public class Vertex
 {
@@ -83,6 +99,8 @@ public class Vertex
     [SerializeField]
     public List<int> neighbors;
 
+    public ZoneType zoneType = ZoneType.Neutral;
+
     public Vertex(int id, Vector3 position)
     {
         this.id = id;
@@ -91,9 +109,9 @@ public class Vertex
     }
 }
 
+// ---------- graphPath ----------
 public class graphPath : MonoBehaviour
 {
-
     [SerializeField] public bool AlingToGrid = true;
     [SerializeField] public float vertexSize = 0.1f;
 
@@ -101,19 +119,95 @@ public class graphPath : MonoBehaviour
     public int vertexCount = 0;
     public int vertedLastID = 0;
 
+    void Start() { }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Update() { }
+
+    // ---------- Algoritmo de Custo ----------
+    public float GetCost(Vertex from, Vertex to, EnemyBehaviorType behavior)
     {
+        float baseCost = Vector3.Distance(from.position, to.position);
 
+        if (to.zoneType == ZoneType.DangerZone)
+        {
+            if (behavior == EnemyBehaviorType.Cautious)
+                baseCost *= 5f;
+        }
+        else if (to.zoneType == ZoneType.SafeZone)
+        {
+            if (behavior == EnemyBehaviorType.Cautious)
+                baseCost *= 0.5f;
+        }
+
+        return baseCost;
     }
 
-    // Update is called once per frame
-    void Update()
+    // ---------- Algoritmo A* ----------
+    public List<Vertex> FindPath(int startId, int goalId, EnemyBehaviorType behavior)
     {
+        var frontier = new PriorityQueue<Vertex>();
+        Dictionary<int, int> cameFrom = new Dictionary<int, int>();
+        Dictionary<int, float> costSoFar = new Dictionary<int, float>();
 
+        Vertex start = AdjacencyList.Find(v => v.id == startId);
+        Vertex goal = AdjacencyList.Find(v => v.id == goalId);
+
+        if (start == null || goal == null)
+        {
+            Debug.LogWarning("Start or Goal vertex not found.");
+            return new List<Vertex>();
+        }
+
+        frontier.Enqueue(start, 0);
+        cameFrom[start.id] = start.id;
+        costSoFar[start.id] = 0;
+
+        while (frontier.Count > 0)
+        {
+            Vertex current = frontier.Dequeue();
+
+            if (current.id == goal.id)
+                break;
+
+            foreach (int neighborId in current.neighbors)
+            {
+                Vertex neighbor = AdjacencyList.Find(v => v.id == neighborId);
+                float newCost = costSoFar[current.id] + GetCost(current, neighbor, behavior);
+
+                if (!costSoFar.ContainsKey(neighbor.id) || newCost < costSoFar[neighbor.id])
+                {
+                    costSoFar[neighbor.id] = newCost;
+                    float priority = newCost;
+                    frontier.Enqueue(neighbor, priority);
+                    cameFrom[neighbor.id] = current.id;
+                }
+            }
+        }
+
+        // Reconstruir caminho
+        List<Vertex> path = new List<Vertex>();
+        int currentId = goal.id;
+
+        if (!cameFrom.ContainsKey(goal.id))
+        {
+            Debug.LogWarning("Path not found!");
+            return path;
+        }
+
+        while (currentId != start.id)
+        {
+            Vertex currentVertex = AdjacencyList.Find(v => v.id == currentId);
+            path.Add(currentVertex);
+            currentId = cameFrom[currentId];
+        }
+
+        path.Add(start);
+        path.Reverse();
+
+        return path;
     }
 
+    // ---------- Gizmos ----------
     void OnDrawGizmos()
     {
         /*
@@ -142,8 +236,7 @@ public class graphPath : MonoBehaviour
             }
 
             Gizmos.color = Color.red;
-            Gizmos.DrawSphere(AdjacencyList[i].position, vertexRadius);
-
+            Gizmos.DrawSphere(AdjacencyList[i].position, vertexSize);
         }
         */
     }
