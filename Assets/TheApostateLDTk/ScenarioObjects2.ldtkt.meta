@@ -3925,7 +3925,12 @@ ScriptedImporter:
       width: 16
       height: 16
     spriteID: 1045d6680746db54e8a281a5de846268
-    spriteOutline: []
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 3}
+      - {x: -8, y: 3}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
     tessellationDetail: 0
   - name: ScenarioObjects2_214
     originalName: 
@@ -3940,7 +3945,12 @@ ScriptedImporter:
       width: 16
       height: 16
     spriteID: 20c0cd3741eb92642883b4672155f662
-    spriteOutline: []
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: 3, y: 8}
+      - {x: 3, y: -8}
+      - {x: 8, y: -8}
     tessellationDetail: 0
   - name: ScenarioObjects2_215
     originalName: 
@@ -3955,7 +3965,12 @@ ScriptedImporter:
       width: 16
       height: 16
     spriteID: fbafb2e7aa6ebcf4685eb56042517e37
-    spriteOutline: []
+    spriteOutline:
+    - shape:
+      - {x: 3, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 3, y: -8}
     tessellationDetail: 0
   - name: ScenarioObjects2_216
     originalName: 
@@ -4344,7 +4359,12 @@ ScriptedImporter:
       width: 16
       height: 16
     spriteID: 5c6837ad162b3f1448cc03ee664954a6
-    spriteOutline: []
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: 3}
+      - {x: 8, y: 3}
     tessellationDetail: 0
   - name: ScenarioObjects2_239
     originalName: 
@@ -4374,7 +4394,12 @@ ScriptedImporter:
       width: 16
       height: 16
     spriteID: 6fbc9220718754145990ed5a0d302d90
-    spriteOutline: []
+    spriteOutline:
+    - shape:
+      - {x: 8, y: -3}
+      - {x: -8, y: -3}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
     tessellationDetail: 0
   - name: ScenarioObjects2_241
     originalName: 
@@ -4734,7 +4759,12 @@ ScriptedImporter:
       width: 16
       height: 16
     spriteID: 6efca81663496ae419176d852a3cb28f
-    spriteOutline: []
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -3, y: 8}
+      - {x: -3, y: -8}
+      - {x: 8, y: -8}
     tessellationDetail: 0
   - name: ScenarioObjects2_264
     originalName: 
@@ -4749,7 +4779,12 @@ ScriptedImporter:
       width: 16
       height: 16
     spriteID: a9c986fdbeca8ba4ebcbfbd6061bbf88
-    spriteOutline: []
+    spriteOutline:
+    - shape:
+      - {x: -3, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: -3, y: -8}
     tessellationDetail: 0
   - name: ScenarioObjects2_265
     originalName: 
@@ -4764,7 +4799,12 @@ ScriptedImporter:
       width: 16
       height: 16
     spriteID: dd53666e19555a040882d80598c640c8
-    spriteOutline: []
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -3}
+      - {x: 8, y: -3}
     tessellationDetail: 0
   - name: ScenarioObjects2_266
     originalName: 
