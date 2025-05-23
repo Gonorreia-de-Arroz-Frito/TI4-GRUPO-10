@@ -1,0 +1,2119 @@
+fileFormatVersion: 2
+guid: f9e7b44eb1e39d247aa21929ff77312a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8300711435007400638
+    second: ScenarioProps_0
+  - first:
+      213: -6294858830233770428
+    second: ScenarioProps_1
+  - first:
+      213: 6135561857745207285
+    second: ScenarioProps_2
+  - first:
+      213: 256368105049793110
+    second: ScenarioProps_3
+  - first:
+      213: -817483333423704900
+    second: ScenarioProps_4
+  - first:
+      213: -422553619505700467
+    second: ScenarioProps_5
+  - first:
+      213: -7863925369365423516
+    second: ScenarioProps_6
+  - first:
+      213: 6543432498200054707
+    second: ScenarioProps_7
+  - first:
+      213: -1471835809733057245
+    second: ScenarioProps_8
+  - first:
+      213: -6876922256494348488
+    second: ScenarioProps_9
+  - first:
+      213: -7397714072661851238
+    second: ScenarioProps_10
+  - first:
+      213: 2155714711844622538
+    second: ScenarioProps_11
+  - first:
+      213: 4604709756364635638
+    second: ScenarioProps_12
+  - first:
+      213: 671865544095743555
+    second: ScenarioProps_13
+  - first:
+      213: 1230203926954265011
+    second: ScenarioProps_14
+  - first:
+      213: -4405598902369855822
+    second: ScenarioProps_15
+  - first:
+      213: -6977148655001932978
+    second: ScenarioProps_16
+  - first:
+      213: 3015456978171006199
+    second: ScenarioProps_17
+  - first:
+      213: -7362123366478993961
+    second: ScenarioProps_18
+  - first:
+      213: 5123554760596835771
+    second: ScenarioProps_19
+  - first:
+      213: 5253600489709198893
+    second: ScenarioProps_20
+  - first:
+      213: -6618735037458562094
+    second: ScenarioProps_21
+  - first:
+      213: 6811903853593308487
+    second: ScenarioProps_22
+  - first:
+      213: -5704628308852734457
+    second: ScenarioProps_23
+  - first:
+      213: -4653400978457953551
+    second: ScenarioProps_24
+  - first:
+      213: 7037693652029233051
+    second: ScenarioProps_25
+  - first:
+      213: 5729736160891616850
+    second: ScenarioProps_26
+  - first:
+      213: -1391782320178606282
+    second: ScenarioProps_27
+  - first:
+      213: -5888664326201009673
+    second: ScenarioProps_28
+  - first:
+      213: 2717910820949660911
+    second: ScenarioProps_29
+  - first:
+      213: -4075110921720903111
+    second: ScenarioProps_30
+  - first:
+      213: 2002703648118022905
+    second: ScenarioProps_31
+  - first:
+      213: 1968685156461848491
+    second: ScenarioProps_32
+  - first:
+      213: -4137954262017923333
+    second: ScenarioProps_33
+  - first:
+      213: 6908937840521967891
+    second: ScenarioProps_34
+  - first:
+      213: 1212392291887384348
+    second: ScenarioProps_35
+  - first:
+      213: 2434291531283943408
+    second: ScenarioProps_36
+  - first:
+      213: -7622936518626064921
+    second: ScenarioProps_37
+  - first:
+      213: -37765794414910550
+    second: ScenarioProps_38
+  - first:
+      213: 8013859767980904468
+    second: ScenarioProps_39
+  - first:
+      213: -9136702072721348867
+    second: ScenarioProps_40
+  - first:
+      213: 4004017953694527677
+    second: ScenarioProps_41
+  - first:
+      213: 3031379304809486686
+    second: ScenarioProps_42
+  - first:
+      213: 121259491326393798
+    second: ScenarioProps_43
+  - first:
+      213: 3789403387399344151
+    second: ScenarioProps_44
+  - first:
+      213: 4870098367829259123
+    second: ScenarioProps_45
+  - first:
+      213: -3034604145129778807
+    second: ScenarioProps_46
+  - first:
+      213: 8674032034483617151
+    second: ScenarioProps_47
+  - first:
+      213: 5325303335353856096
+    second: ScenarioProps_48
+  - first:
+      213: 5560903386835725358
+    second: ScenarioProps_49
+  - first:
+      213: -6584062253605913520
+    second: ScenarioProps_50
+  - first:
+      213: 1324446674426365066
+    second: ScenarioProps_51
+  - first:
+      213: 6588323131920879312
+    second: ScenarioProps_52
+  - first:
+      213: 940137910512406949
+    second: ScenarioProps_53
+  - first:
+      213: 7859555164819128647
+    second: ScenarioProps_54
+  - first:
+      213: -4967427652993314632
+    second: ScenarioProps_55
+  - first:
+      213: 355003013623281649
+    second: ScenarioProps_56
+  - first:
+      213: -223841437923878287
+    second: ScenarioProps_57
+  - first:
+      213: -3299032329938645829
+    second: ScenarioProps_58
+  - first:
+      213: 4649580097071060466
+    second: ScenarioProps_59
+  - first:
+      213: 3086364834139005103
+    second: ScenarioProps_60
+  - first:
+      213: -8415267278105363804
+    second: ScenarioProps_61
+  - first:
+      213: -894457767117930011
+    second: ScenarioProps_62
+  - first:
+      213: 744866440953262789
+    second: ScenarioProps_63
+  - first:
+      213: 2421105560267456223
+    second: ScenarioProps_64
+  - first:
+      213: -8477262587740337624
+    second: ScenarioProps_65
+  - first:
+      213: -8132103767537125691
+    second: ScenarioProps_66
+  - first:
+      213: -6806867114841420416
+    second: ScenarioProps_67
+  - first:
+      213: -7865109858079213908
+    second: ScenarioProps_68
+  - first:
+      213: 830651256715569217
+    second: ScenarioProps_69
+  - first:
+      213: -290608927830559748
+    second: ScenarioProps_70
+  - first:
+      213: 7578927889557140595
+    second: ScenarioProps_71
+  - first:
+      213: 2935157340544903218
+    second: ScenarioProps_72
+  - first:
+      213: 6493454830091835390
+    second: ScenarioProps_73
+  - first:
+      213: 6429517236152996672
+    second: ScenarioProps_74
+  - first:
+      213: -6705624324685530737
+    second: ScenarioProps_75
+  - first:
+      213: -6768139121186535797
+    second: ScenarioProps_76
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ScenarioProps_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 355
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba93a2321d023370800000000000000
+      internalID: 8300711435007400638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 378
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4466fa8de3b24a8a0800000000000000
+      internalID: -6294858830233770428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 388
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ffb6548005e52550800000000000000
+      internalID: 6135561857745207285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 388
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652ab39ee6dce8300800000000000000
+      internalID: 256368105049793110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 378
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb45a7d4d37b7a4f0800000000000000
+      internalID: -817483333423704900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_5
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 355
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81aecac8b9c22af0800000000000000
+      internalID: -422553619505700467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_6
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 385
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a9aca9a89bdd290800000000000000
+      internalID: -7863925369365423516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_7
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 386
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb06f24031feca50800000000000000
+      internalID: 6543432498200054707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 356
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3256921112df29be0800000000000000
+      internalID: -1471835809733057245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_9
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 371
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8373da9a4a34090a0800000000000000
+      internalID: -6876922256494348488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_10
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 374
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a930515ee3a065990800000000000000
+      internalID: -7397714072661851238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_11
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 363
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac01594eb13aaed10800000000000000
+      internalID: 2155714711844622538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_12
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 357
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fdb3e9602737ef30800000000000000
+      internalID: 4604709756364635638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_13
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 371
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34eb6a41722f25900800000000000000
+      internalID: 671865544095743555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_14
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 356
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9466324ff821110800000000000000
+      internalID: 1230203926954265011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_15
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 370
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6d461e32b2cd2c0800000000000000
+      internalID: -4405598902369855822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_16
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 356
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4be389c3403c2f90800000000000000
+      internalID: -6977148655001932978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 356
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc0b53252e09d920800000000000000
+      internalID: 3015456978171006199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_18
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 370
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5aa6cedcb74d990800000000000000
+      internalID: -7362123366478993961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_19
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 356
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdc2a4b8e58a1740800000000000000
+      internalID: 5123554760596835771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_20
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 356
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e5fe48fc988e840800000000000000
+      internalID: 5253600489709198893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_21
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 371
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3c9dd0d878524a0800000000000000
+      internalID: -6618735037458562094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_22
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 363
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d2b8db67eb88e50800000000000000
+      internalID: 6811903853593308487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 374
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706023b07c615d0b0800000000000000
+      internalID: -5704628308852734457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_24
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 356
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fafe81077ccb6fb0800000000000000
+      internalID: -4653400978457953551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_25
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 371
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b975937d619eaa160800000000000000
+      internalID: 7037693652029233051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_26
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 370
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25eb7ae4eac148f40800000000000000
+      internalID: 5729736160891616850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 339
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fc5119a556face0800000000000000
+      internalID: -1391782320178606282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_28
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 342
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9164baef2474ea0800000000000000
+      internalID: -5888664326201009673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_29
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 340
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe415e5dd75f7b520800000000000000
+      internalID: 2717910820949660911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 340
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ac282253c4277c0800000000000000
+      internalID: -4075110921720903111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_31
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 342
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f224707b580bcb10800000000000000
+      internalID: 2002703648118022905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_32
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 339
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba72e7128bc225b10800000000000000
+      internalID: 1968685156461848491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_33
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 338
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6ab93c5880396c0800000000000000
+      internalID: -4137954262017923333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_34
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 342
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319f09f5c5a71ef50800000000000000
+      internalID: 6908937840521967891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_35
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 338
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c178e5ead5843d010800000000000000
+      internalID: 1212392291887384348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_36
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 339
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffcbe1104758c120800000000000000
+      internalID: 2434291531283943408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_37
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 340
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5c0f5df93e53690800000000000000
+      internalID: -7622936518626064921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_38
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 340
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa32d37c534d97ff0800000000000000
+      internalID: -37765794414910550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_39
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 342
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410db4eeff2f63f60800000000000000
+      internalID: 8013859767980904468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_40
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 339
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df66ed88fd9e33180800000000000000
+      internalID: -9136702072721348867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 307
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0bf3c5d11219730800000000000000
+      internalID: 4004017953694527677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_42
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 326
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59d3a2ba6f911a20800000000000000
+      internalID: 3031379304809486686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_43
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 323
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd772a6ddccea100800000000000000
+      internalID: 121259491326393798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_44
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 307
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7109990cd4aa69430800000000000000
+      internalID: 3789403387399344151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_45
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 328
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3733ca3a9a0169340800000000000000
+      internalID: 4870098367829259123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_46
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 323
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9819c97ab9be2e5d0800000000000000
+      internalID: -3034604145129778807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_47
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 328
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d31c9ad2a506870800000000000000
+      internalID: 8674032034483617151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_48
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 323
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06038f83b2747e940800000000000000
+      internalID: 5325303335353856096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_49
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 307
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c2c9ada2c4c2d40800000000000000
+      internalID: 5560903386835725358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_50
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 323
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05cf2c2a346b0a4a0800000000000000
+      internalID: -6584062253605913520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_51
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 326
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a848121bb31616210800000000000000
+      internalID: 1324446674426365066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_52
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 307
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de02a76bfc6e6b50800000000000000
+      internalID: 6588323131920879312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_53
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 310
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a158f3d27a0c0d00800000000000000
+      internalID: 940137910512406949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_54
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 307
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74181abd7cfb21d60800000000000000
+      internalID: 7859555164819128647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_55
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 306
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b091ef3ed6201bb0800000000000000
+      internalID: -4967427652993314632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_56
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 307
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f775392c593de400800000000000000
+      internalID: 355003013623281649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_57
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 307
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ad88ee561c4ecf0800000000000000
+      internalID: -223841437923878287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_58
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 306
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc4a7f239b7732d0800000000000000
+      internalID: -3299032329938645829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_59
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 307
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f595a8b670a68040800000000000000
+      internalID: 4649580097071060466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_60
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 310
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0ec12e678f4da20800000000000000
+      internalID: 3086364834139005103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 277
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aabf8e1ff6f63b80800000000000000
+      internalID: -8415267278105363804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_62
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 292
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1c85c566f3693f0800000000000000
+      internalID: -894457767117930011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_63
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 299
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2f022e41c465a00800000000000000
+      internalID: 744866440953262789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_64
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 298
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdef673fdae799120800000000000000
+      internalID: 2421105560267456223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_65
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 279
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a47064796ba5a80800000000000000
+      internalID: -8477262587740337624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_66
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 290
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6755b85b6f42f80800000000000000
+      internalID: -8132103767537125691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_67
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 290
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08dc6926c662981a0800000000000000
+      internalID: -6806867114841420416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_68
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 279
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6f3c5514489d290800000000000000
+      internalID: -7865109858079213908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_69
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 298
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14863c0cae0178b00800000000000000
+      internalID: 830651256715569217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_70
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 292
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf33a1848bc87fbf0800000000000000
+      internalID: -290608927830559748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_71
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 277
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374ba5bb2c2cd2960800000000000000
+      internalID: 7578927889557140595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_72
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 299
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2382f03dc06cbb820800000000000000
+      internalID: 2935157340544903218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_73
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 277
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef71ba0a3c26d1a50800000000000000
+      internalID: 6493454830091835390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_74
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 275
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043962a7cdb3a3950800000000000000
+      internalID: 6429517236152996672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_75
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 275
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8976e16436d0f2a0800000000000000
+      internalID: -6705624324685530737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScenarioProps_76
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 277
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b868043145db212a0800000000000000
+      internalID: -6768139121186535797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ScenarioProps_0: 8300711435007400638
+      ScenarioProps_1: -6294858830233770428
+      ScenarioProps_10: -7397714072661851238
+      ScenarioProps_11: 2155714711844622538
+      ScenarioProps_12: 4604709756364635638
+      ScenarioProps_13: 671865544095743555
+      ScenarioProps_14: 1230203926954265011
+      ScenarioProps_15: -4405598902369855822
+      ScenarioProps_16: -6977148655001932978
+      ScenarioProps_17: 3015456978171006199
+      ScenarioProps_18: -7362123366478993961
+      ScenarioProps_19: 5123554760596835771
+      ScenarioProps_2: 6135561857745207285
+      ScenarioProps_20: 5253600489709198893
+      ScenarioProps_21: -6618735037458562094
+      ScenarioProps_22: 6811903853593308487
+      ScenarioProps_23: -5704628308852734457
+      ScenarioProps_24: -4653400978457953551
+      ScenarioProps_25: 7037693652029233051
+      ScenarioProps_26: 5729736160891616850
+      ScenarioProps_27: -1391782320178606282
+      ScenarioProps_28: -5888664326201009673
+      ScenarioProps_29: 2717910820949660911
+      ScenarioProps_3: 256368105049793110
+      ScenarioProps_30: -4075110921720903111
+      ScenarioProps_31: 2002703648118022905
+      ScenarioProps_32: 1968685156461848491
+      ScenarioProps_33: -4137954262017923333
+      ScenarioProps_34: 6908937840521967891
+      ScenarioProps_35: 1212392291887384348
+      ScenarioProps_36: 2434291531283943408
+      ScenarioProps_37: -7622936518626064921
+      ScenarioProps_38: -37765794414910550
+      ScenarioProps_39: 8013859767980904468
+      ScenarioProps_4: -817483333423704900
+      ScenarioProps_40: -9136702072721348867
+      ScenarioProps_41: 4004017953694527677
+      ScenarioProps_42: 3031379304809486686
+      ScenarioProps_43: 121259491326393798
+      ScenarioProps_44: 3789403387399344151
+      ScenarioProps_45: 4870098367829259123
+      ScenarioProps_46: -3034604145129778807
+      ScenarioProps_47: 8674032034483617151
+      ScenarioProps_48: 5325303335353856096
+      ScenarioProps_49: 5560903386835725358
+      ScenarioProps_5: -422553619505700467
+      ScenarioProps_50: -6584062253605913520
+      ScenarioProps_51: 1324446674426365066
+      ScenarioProps_52: 6588323131920879312
+      ScenarioProps_53: 940137910512406949
+      ScenarioProps_54: 7859555164819128647
+      ScenarioProps_55: -4967427652993314632
+      ScenarioProps_56: 355003013623281649
+      ScenarioProps_57: -223841437923878287
+      ScenarioProps_58: -3299032329938645829
+      ScenarioProps_59: 4649580097071060466
+      ScenarioProps_6: -7863925369365423516
+      ScenarioProps_60: 3086364834139005103
+      ScenarioProps_61: -8415267278105363804
+      ScenarioProps_62: -894457767117930011
+      ScenarioProps_63: 744866440953262789
+      ScenarioProps_64: 2421105560267456223
+      ScenarioProps_65: -8477262587740337624
+      ScenarioProps_66: -8132103767537125691
+      ScenarioProps_67: -6806867114841420416
+      ScenarioProps_68: -7865109858079213908
+      ScenarioProps_69: 830651256715569217
+      ScenarioProps_7: 6543432498200054707
+      ScenarioProps_70: -290608927830559748
+      ScenarioProps_71: 7578927889557140595
+      ScenarioProps_72: 2935157340544903218
+      ScenarioProps_73: 6493454830091835390
+      ScenarioProps_74: 6429517236152996672
+      ScenarioProps_75: -6705624324685530737
+      ScenarioProps_76: -6768139121186535797
+      ScenarioProps_8: -1471835809733057245
+      ScenarioProps_9: -6876922256494348488
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
