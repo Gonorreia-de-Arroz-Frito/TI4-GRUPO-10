@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class movement : MonoBehaviour
 {
-    [ReadOnlyAtribute][SerializeField] Rigidbody2D rb;
-    [ReadOnlyAtribute][SerializeField] Transform tf;
+    [SerializeField] Rigidbody2D rb;
+    [SerializeField] Transform tf;
     [SerializeField] Camera mainCamera;
 
     [Header("Movement")]
@@ -15,10 +15,12 @@ public class movement : MonoBehaviour
     [SerializeField] float stopedDragCoefficient;
 
     [Header("Rotation")]
-    [SerializeField] public bool lookAtMouse = true;
+    [SerializeField] public bool feetToTorso = true;
     [SerializeField] float rotationAccel = 90F;
     [SerializeField] float lookFOV = 45F;
     [SerializeField] float lookDebugRange = 10F;
+    [SerializeField] Transform[] torsoRot;
+    [SerializeField] Transform[] feetRot;
 
     [Header("Debug")]
     [SerializeField] public bool gizmosToggle = true;
@@ -29,14 +31,21 @@ public class movement : MonoBehaviour
     [Header("Show Only")]
     [ReadOnlyAtribute][SerializeField] Vector2 wishDir;
     [ReadOnlyAtribute][SerializeField] float dotVel;
-    [ReadOnlyAtribute][SerializeField] Vector2 lookDir;
+    [ReadOnlyAtribute][SerializeField] Vector2 TorsoLookDir;
+    [ReadOnlyAtribute][SerializeField] Vector2 FeetLookDir;
+
+    [ReadOnlyAtribute][SerializeField] bool invertRunAnimation = false;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        tf = GetComponent<Transform>();
+        if (rb == null)
+            rb = GetComponent<Rigidbody2D>();
+        if (tf == null)
+            tf = GetComponent<Transform>();
+        if (mainCamera == null)
+            mainCamera = Camera.main;
     }
 
     // Update is called once per frame
@@ -58,6 +67,32 @@ public class movement : MonoBehaviour
     void lookDirection()
     {
 
+        TorsoLookDir = mainCamera.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+        if (wishDir != Vector2.zero && !feetToTorso)
+            FeetLookDir = wishDir;
+        else
+            FeetLookDir = TorsoLookDir;
+
+        float angleBetween = Vector2.Angle(TorsoLookDir, FeetLookDir);
+        if (angleBetween > 90f)
+        {
+            FeetLookDir *= -1;
+            invertRunAnimation = true;
+        }
+        else
+            invertRunAnimation = false;
+
+        foreach (Transform tfm in torsoRot)
+        {
+            tfm.rotation = Quaternion.LookRotation(tfm.forward, TorsoLookDir);
+        }
+
+        foreach (Transform tfm in feetRot)
+        {
+            tfm.rotation = Quaternion.LookRotation(tfm.forward, FeetLookDir);
+        }
+
+        /*
         if (lookAtMouse)
         {
             lookDir = mainCamera.ScreenToWorldPoint(Input.mousePosition) - transform.position;
@@ -71,6 +106,7 @@ public class movement : MonoBehaviour
 
             rb.MoveRotation(rotation);
         }
+        */
     }
 
     // Basic Speed calculation using quake as inspiration
@@ -106,6 +142,7 @@ public class movement : MonoBehaviour
     // Wish direction
     void wishDirCalculation()
     {
+
         wishDir.x = Input.GetAxisRaw("Horizontal");
         wishDir.y = Input.GetAxisRaw("Vertical");
         wishDir = wishDir.normalized;

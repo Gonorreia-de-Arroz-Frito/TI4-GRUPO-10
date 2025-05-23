@@ -1,0 +1,3868 @@
+fileFormatVersion: 2
+guid: 5003f7323a7e3e34fa03af9b3ae75c5c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 16
+  _overrideTexture: {instanceID: 0}
+  _sprites:
+  - name: ScenarioTrees_0
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 984c7a278d004c74a88472a0ede0f289
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_1
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 445c06f7c45646146a1c10343a17fcb3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 13f37860b80abfb468354c0de286e063
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 198f4f65ef069d7438a9b5d8d00bbf5b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 6b84b540509a0f44b8c108058bc36b4f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 6128773584f032b42b28d1e45e2a51a9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 240
+      width: 16
+      height: 16
+    spriteID: f9ee589f9a768ce41a2241fc723c77e4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 240
+      width: 16
+      height: 16
+    spriteID: cc1df74489654a04da78f7504682ba4b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 240
+      width: 16
+      height: 16
+    spriteID: c3ef4dfe181864a41992e45db08407a2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 240
+      width: 16
+      height: 16
+    spriteID: e1f14c83a79993648b6f1d3461b551fc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 56f2d07d031304e43a1399444659923f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 24b1634c08406dd48b37938b0ae60709
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 10e60ac9ed28f5c429273a1449fb34e0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 77870e07f1de71e448e50607734fa45a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 25019bf977695654d9988772d609636a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 240
+      width: 16
+      height: 16
+    spriteID: b3e57ab8fb452514daac2194c7dccd64
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 224
+      width: 16
+      height: 16
+    spriteID: ac3a4d7b95e9f08488c024ba7ca92092
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 224
+      width: 16
+      height: 16
+    spriteID: f299a2edd935a524e887297e335fbc62
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 6eb517a2d649055499802a973a8ba753
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 224
+      width: 16
+      height: 16
+    spriteID: a6bd26767e860664d9980fa1d67efa23
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 76cbec1efb774c245af1b7cd98cf4d2f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 224
+      width: 16
+      height: 16
+    spriteID: b786822256759f943ae8304a302ea82c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 298f507ff458b8e40802bff4d18a3457
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 7f50bc4fb5d8cd3409aea96444d425b1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 9b00846d98469ac40a82fe72d9a7b0d1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 2998da4a378b4914292e311f8b2a455b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 67c2c0155fcadf245b7978c2b0348f06
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 224
+      width: 16
+      height: 16
+    spriteID: b80e7d74f11c7a14590fa17aefcdadff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 80895c98afb86d7448d228ef65fa43db
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 74be4067806a1ac48b5c9475d6ab8168
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 8e1e816d849a76d41b92b9ca1f477078
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 224
+      width: 16
+      height: 16
+    spriteID: b90c66787722fbd4fbaa9dcb028f6639
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 00f9261879583e34094dd25d84e4adce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 8eecc2a74ff4b83438ba9e2dba9f058f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 208
+      width: 16
+      height: 16
+    spriteID: d5678a07b537e3e4080e7f46b1e8e059
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -5, y: 8}
+      - {x: -8, y: 5}
+      - {x: -8, y: -6}
+      - {x: -6, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: ScenarioTrees_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 208
+      width: 16
+      height: 16
+    spriteID: fd8e5edb935a91844b232fda1fcddfac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 208
+      width: 16
+      height: 16
+    spriteID: e19a21d630465f34590798d9281a0812
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 8a5afe9646a6f44489296ee880721cd9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 08d58effee9c5ef4a890ab0a6a68aaa7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 76eb4aa85f55cc0489f48e564c8cb617
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 0fe3cc9cd4caf2745ac5e0815a95b5b5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 208
+      width: 16
+      height: 16
+    spriteID: de0a10a710097a14daa23b2d68ffaed0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 208
+      width: 16
+      height: 16
+    spriteID: d129c1d4e4ee6544db6e53570c5cb3b3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 47fe65731b70877488782165e4ce65ce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 208
+      width: 16
+      height: 16
+    spriteID: c563196c29f90314aaed55c70713ee0c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 34e044d41ad18844991b13b4faa97029
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 136923d2d9efd384785e39fa1ee3ce7a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 36744dbcbb3ccbe4a9407247e6204fde
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 192
+      width: 16
+      height: 16
+    spriteID: c0917404fe0302748bb7792aa8f8df9d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 192
+      width: 16
+      height: 16
+    spriteID: de41c49c2e05c534fa709e9010c18541
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 192
+      width: 16
+      height: 16
+    spriteID: a04d4b589aa3ddc48b7194e8269db2f6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 115f7bc1647878249860d2f900ccb4a9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 192
+      width: 16
+      height: 16
+    spriteID: ec6607d0fe6eef34eb9173592475a023
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 24ac5c2ad8d5f2d4f8dfd93e8fd0a725
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 192
+      width: 16
+      height: 16
+    spriteID: d9ffeab833c34b94184a983c57a3addc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 192
+      width: 16
+      height: 16
+    spriteID: f126c5e6aead7e147b96836e3a038f7d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 192
+      width: 16
+      height: 16
+    spriteID: aec82821ab9fb0f4da83bbc44e6adc79
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 77e9942a9b5204a40a4e7588b0c3fd35
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 192
+      width: 16
+      height: 16
+    spriteID: d3ba8b09de350074bbaeb76a1e42bafb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 77a0fd8d7b1156443835af6cfb1806ec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 3c0062ec20735894ba61ce4c0337568f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 3b4f003d2711d8145b19ce2bb4142702
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 40c34935800f9c747b94e68757672cc4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 1ccf14a35ef2be94a9ee19f12bb23e45
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 176
+      width: 16
+      height: 16
+    spriteID: b8e3c7a0f48ef0c45b0a6f683ac33fe4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 37b9164055eaabe448535a928a4f1bfd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 55a16b96d4dcc6c48802c7c9eb0ec659
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 176
+      width: 16
+      height: 16
+    spriteID: ce27cd6f0537a0d4ca0d908c97effa68
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 176
+      width: 16
+      height: 16
+    spriteID: ef9c19ff6c23e514c8fe420b4af9bb3e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 6519106502fc5964c98fdedbafe20975
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 176
+      width: 16
+      height: 16
+    spriteID: b3460365c32a9d349b9bf9b794739526
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_71
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 176
+      width: 16
+      height: 16
+    spriteID: f8125d664bd7c084ea91a0070f0bb481
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 176
+      width: 16
+      height: 16
+    spriteID: a203fbaf43da5f14491662a55bb38e5f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_73
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 176
+      width: 16
+      height: 16
+    spriteID: dfb2531c4ec70804db33de069ee42f33
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 0ee031e39370ce243bb3ff465c2c81be
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_75
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 519ee5b13546811429ad60867b2800bf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_76
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 5667030b50171944a8f0c8c0d170eedf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_77
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 4fba84aeb847e594bb97db79acae9991
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_78
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 157660a29bf6ebf4898f1ce9f3901d0c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 211e3e8ab029c1e49b3c18e11142a9c7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_80
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 160
+      width: 16
+      height: 16
+    spriteID: f6a8adf7e2a1ea84195c215dcd469ae2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_81
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 160
+      width: 16
+      height: 16
+    spriteID: a022f015fcab6fb49a397872a9c624b6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_82
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 160
+      width: 16
+      height: 16
+    spriteID: dec646f6a3f7d3e409e2c63e53a5fd5c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_83
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 2b761cf7abcd4764385ed69b99241a4e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_84
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 9e645faea38ccce4d80d3a9fbee13412
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_85
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 54155bf44d110a841be2d14b7097e2e2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_86
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 160
+      width: 16
+      height: 16
+    spriteID: c38986d3e42daed43ab37b6089b30dd7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_87
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 89d0affd9da4d9145b7e4deb37b86791
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_88
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 0b5a70ffaeb5e5645a4678b4bcecfdce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_89
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 160
+      width: 16
+      height: 16
+    spriteID: ae58b4d2ef424d649b3bf25de04911aa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_90
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 160
+      width: 16
+      height: 16
+    spriteID: bb07398ed6bd15e4cb8f7c549a20c00b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_91
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 160
+      width: 16
+      height: 16
+    spriteID: b828c34d7f15708429c95d2411f670ba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_92
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 7e9d2847d4c688947b84623a01c9a932
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_93
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 394bc945269779b4c8858dfdfb83d105
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_94
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 944fae617b7522a44bc770d8743094a8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_95
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 64868470af24d42458787035fbcaf42d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_96
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 39658ce049a5077469b972fd33eedc5f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_97
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 53dcf43f58ff7a94eb146c12684ada4b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_98
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 144
+      width: 16
+      height: 16
+    spriteID: e9d2ae4dc4a5e2742b20f0b8de377fc4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_99
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 144
+      width: 16
+      height: 16
+    spriteID: d2b350d35b08e324387d7bbc7704f163
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_100
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 9f5811ee6ccd5fe45ab496f1e13912ba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_101
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 144
+      width: 16
+      height: 16
+    spriteID: df12f7271b5a02744b9e436849779456
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_102
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 86f2d2fef576fa74dab8b1feaa2465ec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_103
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 5ae057df5607d1b47a481164c446c61b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_104
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 7f778454c9dac294182591086f09e194
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_105
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 144
+      width: 16
+      height: 16
+    spriteID: dc27930a1c162b74996106ade1503143
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_106
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 323d8caca062c6749a2ca35bb72c27ec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_107
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 3b73f8d1de975a24487d6fc79ec89b3b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_108
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 144
+      width: 16
+      height: 16
+    spriteID: a5b22e2554ff84447ab299075975a3b0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_109
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 144
+      width: 16
+      height: 16
+    spriteID: d0438de7a66672b459b002a083f45976
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_110
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 5abeb9ae81d363a4ea78415b3d74a55f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_111
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 5972fa988c1639147906a8270275b736
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_112
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 16
+      height: 16
+    spriteID: db86a60eadaacb740a46f77b5eee186f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_113
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 128
+      width: 16
+      height: 16
+    spriteID: cd13feaedca141c4d8585a9f78b29aeb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_114
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 2795bacc4519dfb458c1b28fd2d7037d
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: ScenarioTrees_115
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 50c0c154e79694a4c8539b6d56d015b0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_116
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 128
+      width: 16
+      height: 16
+    spriteID: dd13a0cae89bde34baa0df053071e779
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_117
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 814abab34ff440e4fbfc67dd873ae353
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_118
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 128
+      width: 16
+      height: 16
+    spriteID: ad375a885f24d8d49b4a437846d8be05
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_119
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 128
+      width: 16
+      height: 16
+    spriteID: c4b8ebcd5f9fc6b45aa1dbb125fed7cd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_120
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 128
+      width: 16
+      height: 16
+    spriteID: a1d241763189c4d4e81bb1252195b2da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_121
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 95f9e76e277d6914e9a7bc7eb7937ff2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_122
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 77727b90064e94949ab0a3f5eae4aa34
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_123
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 6cc286ef46f177a489934f433ae6edc5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_124
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 1af187ff465cae342afec003cb2a1e8e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_125
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 128
+      width: 16
+      height: 16
+    spriteID: d8db257e748db2a4baf4b1c47b4ce995
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_126
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 26fa347f65a1f73438a0060f8af5637f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_127
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 128
+      width: 16
+      height: 16
+    spriteID: c0eeb3801fcf3b34c801d6fbf3026bcc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_128
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 4822ff90b066dca42bdb370932aae05b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_129
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c19493a0f85651b4991c41dc2ce58352
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_130
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 128398adae9436845acf76c1965d1126
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_131
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 9930eff3296b6334ea7c5a78ac19ab4b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_132
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 112
+      width: 16
+      height: 16
+    spriteID: a659fcff2c6577844a80b703c6888132
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_133
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 82f13d82ea4ecd44eb00a6f762c6ed1c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_134
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c55b9e3a92442784e892a242bd099c73
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_135
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 112
+      width: 16
+      height: 16
+    spriteID: fb64c8e13d7ec1846b793013734a37bc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_136
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 33231df827b99b247bb4ec884d3dcbaa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_137
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 112
+      width: 16
+      height: 16
+    spriteID: d274b0a4c6864384698164235657e78d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_138
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 112
+      width: 16
+      height: 16
+    spriteID: e3d1d299229694f44834d6945c95497e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_139
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 6bc05b29b27b61b419a8c6e4bacda887
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_140
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 30646983304aa5542ac15d976e5c7483
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_141
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 233f079e988aba846845a989f3a96126
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_142
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 3b15ff83933f3d348bb4fb20a9c0cdc3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_143
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 112
+      width: 16
+      height: 16
+    spriteID: be60313672d478f409ed32f296998636
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_144
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 16
+      height: 16
+    spriteID: ae17a1eff96b61a4c806716b3741af7d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_145
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 939f917bb67aea049b7b5b681ce19def
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_146
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 67bccc2d64da6b148bc1b956fcbdbb9b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_147
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 96
+      width: 16
+      height: 16
+    spriteID: f99e1d992c6a9604a91caf4ec2ac86ae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_148
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 5c621ad7841725a439e4361d2443bfb0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_149
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 00c947792be9baa46905b5b1d2f941a8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_150
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 985003b7f90b5c0438720afcca21aef7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_151
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 96
+      width: 16
+      height: 16
+    spriteID: a86bf9b13629f9a48a97ff38a7e71582
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_152
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 96
+      width: 16
+      height: 16
+    spriteID: aaea96efe73812a49ab884c6cc9419bc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_153
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 96
+      width: 16
+      height: 16
+    spriteID: ac68216a1c50e4041a7ab469b9663820
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_154
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 073b76a3f28b822448564ed7d70a6e65
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_155
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 96
+      width: 16
+      height: 16
+    spriteID: e5405bf1a47936d448ded0cd530bfe9e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_156
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 3579ed369927ee84c97d7cab3e4e7834
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_157
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d268f8f516ad66e43ba034b2004603aa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_158
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 4e1311ea50e522242a79bf0f03cc8804
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_159
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 96
+      width: 16
+      height: 16
+    spriteID: ec3c707402f79904485047d58b3eb12d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_160
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 7d00239133b4d3742a01167cf02515ff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_161
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 80
+      width: 16
+      height: 16
+    spriteID: c9a38cb4d38cb0843b76bd54ad129d31
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_162
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 7046ae81f4848064bb133b24ec9bea2e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_163
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 2062961e44780154c9c0dccf6ec73235
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_164
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 7214dcd6f5aa010418273a5eae44b3fe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_165
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 8e67e8e96338c14499ef813837c4e42d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_166
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 75c42ed55cb467344993b965a6cfd420
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_167
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 719b3a8212be32f4281cbed638efdd9b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_168
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 369f5d3c716a3e74ab8ea0c6768c1772
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_169
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 36f0492c50b40ec49a228dce04e1d7bc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_170
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 63143ad9db1678743afb25476d2aad20
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_171
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 8a8b3494eed35c04599ec70c39afde14
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_172
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 80
+      width: 16
+      height: 16
+    spriteID: f498eb0258e06214eb7db285f9f030ea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_173
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 80
+      width: 16
+      height: 16
+    spriteID: b838c91ff5b2b8b468d309085e52b7fb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_174
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 52a044d848fa58a4c99b20071ad12854
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_175
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 06ef9ef8c2f7ac647ad9698d566e95cb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_176
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 39b560b721c391c4d9f942e245687ca9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_177
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 4fab6d62e641fb440ab0f580b5344dfb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_178
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 0f57881c9267a7d469443996ad049ddd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_179
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 8e19bcc2fe902a34bb6db03b362d4a0d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_180
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 7e81b7e81838b694080e2cc4788670d8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_181
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 8b48b5220b616094b81e35ec88251c7c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_182
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 34e4a9f13d2019648b2dfd11a3358984
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_183
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 8e06fc17aa056c2409faa7a7b00a7b04
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_184
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 64
+      width: 16
+      height: 16
+    spriteID: d180f47820d630744ae4fe4ca7509517
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_185
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 0b99d62f41c1eba4baa27200bd4259a4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_186
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 64
+      width: 16
+      height: 16
+    spriteID: e7aec1c1463c65243b7c83ce4b7886df
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_187
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 608d4602f90506145bb49af8fa0535f7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_188
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 8312bb94bdebe734f8a5f41b69527ae9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_189
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 64
+      width: 16
+      height: 16
+    spriteID: c4af908979161f043a08671c61b923f7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_190
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 64
+      width: 16
+      height: 16
+    spriteID: e6f949f1f264d9b49892f3358b0ba026
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_191
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 64
+      width: 16
+      height: 16
+    spriteID: fe28647aa0cc5134fb14638d0573a037
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_192
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 6e762433d4f900c4da10afc3b1ce0ea1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_193
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 0864d022cf8981842a1c6a05d4296a77
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_194
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 1b0e01f00ca89f6469fe68621c589f3b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_195
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 48
+      width: 16
+      height: 16
+    spriteID: cead4d8fae0203548a8405d26a911240
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_196
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 48
+      width: 16
+      height: 16
+    spriteID: ad7398b2832e5814294de6f762127cac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_197
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 8c1bb2ed766fd4647ac5b87ec0bf3216
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_198
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 48
+      width: 16
+      height: 16
+    spriteID: e26e7b06f45692a47862519243d6f795
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_199
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 09f876576f20bf74883184c49d8b53f5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_200
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 1a23fc511460e9b4095aef7905ccedea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_201
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 48
+      width: 16
+      height: 16
+    spriteID: ee360d07694bd204a8ef04eb52afd2a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_202
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 48
+      width: 16
+      height: 16
+    spriteID: d2cd4ff39d665584ea2b3b80efe8e671
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_203
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 327577846e0b83c45b6ad8bd5c693ebf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_204
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 29cf95dec5e3d15419e2257e7c04220c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_205
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 48
+      width: 16
+      height: 16
+    spriteID: b923cd30eea35e043960932e607e591f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_206
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 48
+      width: 16
+      height: 16
+    spriteID: e0606a535ee8579439473244f1497b46
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_207
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 721b3cfe27e538a4e890f2e6bd7c7efc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_208
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 76c867d941baf82448181f2d3f69daba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_209
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 44f8fe4157bec8645a563ac3e8719395
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_210
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 16
+      height: 16
+    spriteID: aa13f47f4834aee48b25e462ebce59c0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_211
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 32
+      width: 16
+      height: 16
+    spriteID: d88f40235e282814a8165c60276fb7db
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_212
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 16
+      height: 16
+    spriteID: a8fbf739fd67d7c4380a667820b03787
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_213
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 32
+      width: 16
+      height: 16
+    spriteID: e7b7260a0ebc30f40b65b260ad3aeb35
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_214
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 32
+      width: 16
+      height: 16
+    spriteID: a135df0bd2430f4499594fcd72e0a53a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_215
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 32
+      width: 16
+      height: 16
+    spriteID: a3b6c13bb08927b4aa9f259842fa0bbf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_216
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 09f6f9bc7a4e6d84db62b5223e7ad5eb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_217
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 32
+      width: 16
+      height: 16
+    spriteID: f228920c99ad40641adf47d080248037
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_218
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 32
+      width: 16
+      height: 16
+    spriteID: d3aaa77c2579a51418df66ae21edf30e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_219
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 32
+      width: 16
+      height: 16
+    spriteID: a76af9b5a2d6e744d8e5e62f21efab1b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_220
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 32
+      width: 16
+      height: 16
+    spriteID: f086611736ea8224aac64ca51dc1fe20
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_221
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 32
+      width: 16
+      height: 16
+    spriteID: cc7eee4ad832c79499c752f3f300f018
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_222
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 063d72dc396fe6141b006c1dff2a46f0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_223
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 59b47fe7bb0d3a44280136110f3482aa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_224
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 4e178cb23b45d52438269b23ad23311e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_225
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 16
+      width: 16
+      height: 16
+    spriteID: b9c83e1bb51484e4883eb46f51239b6c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_226
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 0aa8a8345181979439d6562e795b375e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_227
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 16
+      width: 16
+      height: 16
+    spriteID: da0240e627643d74aaba7ce18159ac90
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_228
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 191e6e2b577f76d4fa5f9d93bca22e39
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_229
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 46e5f7322459e5b4db6ffbe4564cc97a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_230
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 829e9926979edec4e8036ff7d18a496d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_231
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 5c238c5271f3b004aa0c780c53ed3e86
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_232
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 0f784048f99dea044b37c8b52c3de264
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_233
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 16
+      width: 16
+      height: 16
+    spriteID: d3761879d37e847498682db22c37a322
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_234
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 16
+      width: 16
+      height: 16
+    spriteID: fce1265d84ad4314084bc9cc67cc3976
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_235
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 16
+      width: 16
+      height: 16
+    spriteID: e7c67bf364d27d744ac1f22b2507a35d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_236
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 16
+      width: 16
+      height: 16
+    spriteID: daca500aac927ef4ab01bee2c4d85273
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_237
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 16
+      width: 16
+      height: 16
+    spriteID: d0eec8980ac4e2f4cba85d5391e1d02c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_238
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 33ea3f0a3a55c6b49996deef27613eb8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_239
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 16
+      width: 16
+      height: 16
+    spriteID: bbade4f7c03ae704881182ba6f8fd3c0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_240
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 3286a41be1c71f74d9ec296d1f524ee9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_241
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 0
+      width: 16
+      height: 16
+    spriteID: eee7eda7efcb4824684539137b2c6745
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_242
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 0b396765484dbda4aab93b66aea6209a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_243
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 0
+      width: 16
+      height: 16
+    spriteID: b0fcd028f8f78ad44af2cfb356d47fec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_244
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 685fdfacd113a6e4192949ed4d3c0668
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_245
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 60bed88917a4ecd4185eefd951fc7f59
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_246
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 16
+      height: 16
+    spriteID: d9055be9fae241d4c91c8392f522644d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_247
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 1ec94f6881e2b004bbfa518a4d5404ee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_248
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 38bd04b9b93b87a41a6f2a70380fab19
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_249
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 851881d07fc916846973d1987d091452
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_250
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 0b09d38986a420243be744d76ddf9d4a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_251
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 0
+      width: 16
+      height: 16
+    spriteID: a70b7ae2f399f5d4595ea2bebf75a954
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_252
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 8898810f935a60a4d911fc04a34e49b4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_253
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 0
+      width: 16
+      height: 16
+    spriteID: d9f242385b040b4489d159ecd7491c36
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_254
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 1e591dcc2b1bfd64aa26e4c014671f31
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: ScenarioTrees_255
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 0
+      width: 16
+      height: 16
+    spriteID: c312b4d2b0976b041955903eb6df8f44
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []
+  _artifacts: {fileID: -2988177865379244337, guid: 5003f7323a7e3e34fa03af9b3ae75c5c, type: 3}

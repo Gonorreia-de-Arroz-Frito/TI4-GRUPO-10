@@ -8,8 +8,11 @@ using UnityEngine.InputSystem;
 
 public class Interact : MonoBehaviour
 {
-    [ReadOnlyAtribute][SerializeField] Rigidbody2D rb;
-    [ReadOnlyAtribute][SerializeField] Transform tf;
+    [SerializeField] Rigidbody2D rb;
+    [SerializeField] movement playerMovement;
+    [SerializeField] RelativeJoint2D relativeJoint;
+    [SerializeField] Transform tf;
+    [SerializeField] Animator animator;
     [ReadOnlyAtribute][SerializeField] GameObject target;
     [ReadOnlyAtribute][SerializeField] GrabableObject grabableObject;
     [ReadOnlyAtribute][SerializeField] bool grabing;
@@ -26,6 +29,7 @@ public class Interact : MonoBehaviour
     [SerializeField] float releaseImpulse = 2f;
     [SerializeField] LayerMask layermask;
     [SerializeField] LayerMask confirmLayermask;
+    [SerializeField] public int temporaryLayer;
 
     [Header("Trow Animation")]
     [SerializeField] float trowMaxChargeSecounds = 1.5f;
@@ -39,18 +43,31 @@ public class Interact : MonoBehaviour
     [SerializeField] float raycastOffset = 0.5f;
     [SerializeField] InputActionReference grab;
     [SerializeField] InputActionReference shoot;
+    [SerializeField] InputActionReference damageMyself;
     [SerializeField] Camera mainCamera;
-
+    [SerializeField] Transform cameraTransform;
+    [SerializeField] float pixelsPerUnit = 16;
 
     Vector3 objRotOffset;
     float objectMass;
+    int savedLayer;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        tf = GetComponent<Transform>();
+        if (mainCamera == null)
+        {
+            mainCamera = Camera.main;
+        }
+        if (rb == null)
+        {
+            rb = GetComponent<Rigidbody2D>();
+        }
+        if (tf == null)
+        {
+            tf = GetComponent<Transform>();
+        }
     }
 
     // Update is called once per frame
@@ -69,28 +86,40 @@ public class Interact : MonoBehaviour
 
         if (OverridePlayerRotation)
         {
+            /*
             if (target != null)
             {
-                GetComponent<movement>().lookAtMouse = true;
+                playerMovement.feetToTorso = true;
             }
             else
             {
-                GetComponent<movement>().lookAtMouse = false;
+                playerMovement.feetToTorso = false;
             }
+            */
         }
 
+        Vector3 camPos = tf.position;
+        camPos.z = cameraTransform.position.z;
+
+        float unitPerPixel = 1f / pixelsPerUnit;
+        camPos.x = Mathf.Round(camPos.x / unitPerPixel - unitPerPixel / 2) * unitPerPixel + unitPerPixel / 2;
+        camPos.y = Mathf.Round(camPos.y / unitPerPixel - unitPerPixel / 2) * unitPerPixel + unitPerPixel / 2;
+
+        cameraTransform.position = camPos;
     }
 
     void OnEnable()
     {
         grab.action.started += GrabAttempt;
         shoot.action.performed += shootAttempt;
+        damageMyself.action.performed += (ctx) => { GetComponentInParent<Atributes>().hurt(1); };
     }
 
     void OnDisable()
     {
         grab.action.started -= GrabAttempt;
         shoot.action.performed -= shootAttempt;
+        damageMyself.action.performed -= (ctx) => { GetComponentInParent<Atributes>().hurt(1); };
     }
 
 
@@ -132,25 +161,36 @@ public class Interact : MonoBehaviour
         {
             grabing = true;
             target.GetComponentInChildren<BoxCollider2D>().enabled = false;
-            if (OverridePlayerRotation)
-                GetComponent<movement>().lookAtMouse = true;
 
-            GetComponent<RelativeJoint2D>().linearOffset = objectOffset + grabableObject.grabOffset;
-            //GetComponent<RelativeJoint2D>(). = 0.005f;
+            /*
+            if (OverridePlayerRotation)
+                playerMovement.feetToTorso = true;
+
+            */
+
+            relativeJoint.linearOffset = objectOffset + grabableObject.grabOffset;
+            //relativeJoint. = 0.005f;
             // Connect to object
-            GetComponent<RelativeJoint2D>().connectedBody = target.GetComponentInParent<Rigidbody2D>();
-            GetComponent<RelativeJoint2D>().enabled = true;
+            relativeJoint.connectedBody = target.GetComponentInParent<Rigidbody2D>();
+            relativeJoint.enabled = true;
             objectMass = target.GetComponentInParent<Rigidbody2D>().mass;
             target.GetComponentInParent<Rigidbody2D>().mass = 0.1f;
 
+            // animation
+            animator.SetBool("grabing", true);
+
+            savedLayer = target.transform.parent.gameObject.layer;
+            target.transform.parent.gameObject.layer = temporaryLayer;
         }
     }
 
     void releaseTarget()
     {
+        target.transform.parent.gameObject.layer = savedLayer;
+
         // Disconect from object
-        GetComponent<RelativeJoint2D>().connectedBody = null;
-        GetComponent<RelativeJoint2D>().enabled = false;
+        relativeJoint.connectedBody = null;
+        relativeJoint.enabled = false;
         target.GetComponentInParent<Rigidbody2D>().mass = objectMass;
 
         target.GetComponentInChildren<BoxCollider2D>().enabled = true;
@@ -158,8 +198,12 @@ public class Interact : MonoBehaviour
         target = null;
         GameObject proj = grabableObject.gameObject;
         grabableObject = null;
+        /*
         if (OverridePlayerRotation)
-            GetComponent<movement>().lookAtMouse = false;
+            playerMovement.feetToTorso = false;
+        */
+        // animation
+        animator.SetBool("grabing", false);
 
         proj.transform.parent.GetComponent<Rigidbody2D>().AddForce(lookDir.normalized * releaseImpulse * proj.transform.parent.GetComponent<Rigidbody2D>().mass, ForceMode2D.Impulse);
     }

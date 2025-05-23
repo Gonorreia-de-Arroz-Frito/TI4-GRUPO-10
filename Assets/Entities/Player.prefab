@@ -285,10 +285,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bd0448f48f7e4b41b9a80663ad7c7dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  shakeTransform: {fileID: 0}
+  shakeDuration: 0.4
+  shakeAmount: 0.05
+  shakeTime: 0
   health: 100
   maxHealth: 100
   destroyOnDeath: 0
-  animator: {fileID: 0}
 --- !u!254 &3458138672479252780
 RelativeJoint2D:
   m_ObjectHideFlags: 0
