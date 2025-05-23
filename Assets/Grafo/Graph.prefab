@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8199338277888367567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8205658555185745149}
+  - component: {fileID: 4593414729821581447}
+  m_Layer: 0
+  m_Name: Graph
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8205658555185745149
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8199338277888367567}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 92.3, y: 53.76, z: -0.038975924}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4593414729821581447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8199338277888367567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b691c668f722164ca06fedaf391856c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  graphMap:
+    entries:
+    - Key: 0
+      Value:
+        id: 0
+        name: V0
+        position: {x: 90.89747, y: 60.052265, z: 0}
+        neighbors: 010000000200000008000000
+        zoneType: 0
+        tipo: 0
+        useColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+    - Key: 1
+      Value:
+        id: 1
+        name: V1
+        position: {x: 75.31043, y: 59.954727, z: -0.038975924}
+        neighbors: 000000000600000007000000
+        zoneType: 0
+        tipo: 0
+        useColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+    - Key: 2
+      Value:
+        id: 2
+        name: V2
+        position: {x: 88.21682, y: 68.19014, z: -0.038975924}
+        neighbors: 0000000003000000
+        zoneType: 0
+        tipo: 0
+        useColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+    - Key: 3
+      Value:
+        id: 3
+        name: V3
+        position: {x: 75.3, y: 68.55682, z: -0.038975924}
+        neighbors: 0200000005000000
+        zoneType: 0
+        tipo: 0
+        useColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+    - Key: 4
+      Value:
+        id: 4
+        name: V4
+        position: {x: 75.27569, y: 18.869623, z: -0.038975924}
+        neighbors: 07000000
+        zoneType: 0
+        tipo: 0
+        useColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+    - Key: 5
+      Value:
+        id: 5
+        name: V5
+        position: {x: 62.43, y: 68.08, z: -0.038975924}
+        neighbors: 0300000006000000
+        zoneType: 0
+        tipo: 0
+        useColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+    - Key: 6
+      Value:
+        id: 6
+        name: V6
+        position: {x: 60.12, y: 59.97, z: -0.038975924}
+        neighbors: 0500000001000000
+        zoneType: 0
+        tipo: 0
+        useColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+    - Key: 7
+      Value:
+        id: 7
+        name: V7
+        position: {x: 74.78, y: 40.06, z: -0.038975924}
+        neighbors: 0400000001000000
+        zoneType: 0
+        tipo: 0
+        useColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+    - Key: 8
+      Value:
+        id: 8
+        name: V8
+        position: {x: 95.43092, y: 58.907833, z: -0.038975924}
+        neighbors: 000000000900000018000000
+        zoneType: 0
+        tipo: 0
+        useColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+    - Key: 9
+      Value:
+        id: 9
+        name: V9
+        position: {x: 100.141846, y: 53.524612, z: -0.038975924}
+        neighbors: 080000000a000000
+        zoneType: 0
+        tipo: 0
+        useColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+    - Key: 10
+      Value:
+        id: 10
+        name: V10
+        position: {x: 108.91, y: 52.28, z: -0.038975924}
+        neighbors: 090000000b0000001400000015000000
+        zoneType: 0
+        tipo: 0
+        useColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+    - Key: 11
+      Value:
+        id: 11
+        name: V11
+        position: {x: 116.57, y: 51.95, z: -0.038975924}
+        neighbors: 0a0000000c000000
+        zoneType: 0
+        tipo: 6
+        useColor: 1
+        color: {r: 0.98823535, g: 0.003921569, b: 0.45098042, a: 1}
+    - Key: 12
+      Value:
+        id: 12
+        name: V12
+        position: {x: 124.16, y: 52.21, z: -0.038975924}
+        neighbors: 0b0000000e0000001000000011000000
+        zoneType: 0
+        tipo: 5
+        useColor: 1
+        color: {r: 1, g: 0.0047169924, b: 0.45496425, a: 1}
+    - Key: 13
+      Value:
+        id: 13
+        name: V13
+        position: {x: 130.47485, y: 58.649883, z: -0.038975924}
+        neighbors: 0e00000017000000
+        zoneType: 0
+        tipo: 0
+        useColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+    - Key: 14
+      Value:
+        id: 14
+        name: V14
+        position: {x: 130.9, y: 52.87, z: -0.038975924}
+        neighbors: 0c0000000d0000000f000000
+        zoneType: 0
+        tipo: 0
+        useColor: 0
+        color: {r: 0.98823535, g: 0.003921569, b: 0.45098042, a: 1}
+    - Key: 15
+      Value:
+        id: 15
+        name: V15
+        position: {x: 133.26, y: 48.75, z: -0.038975924}
+        neighbors: 0e00000010000000
+        zoneType: 0
+        tipo: 3
+        useColor: 1
+        color: {r: 0.6104317, g: 0, b: 1, a: 1}
+    - Key: 16
+      Value:
+        id: 16
+        name: V16
+        position: {x: 126.71093, y: 47.50369, z: -0.038975924}
+        neighbors: 0f0000000c000000
+        zoneType: 0
+        tipo: 2
+        useColor: 1
+        color: {r: 1, g: 0.72767526, b: 0.0047169924, a: 1}
+    - Key: 17
+      Value:
+        id: 17
+        name: V17
+        position: {x: 123.51, y: 45.08, z: -0.038975924}
+        neighbors: 0c0000001200000013000000
+        zoneType: 0
+        tipo: 1
+        useColor: 1
+        color: {r: 0.5347996, g: 0, b: 1, a: 1}
+    - Key: 18
+      Value:
+        id: 18
+        name: V18
+        position: {x: 126.85, y: 39.25, z: -0.038975924}
+        neighbors: 11000000
+        zoneType: 0
+        tipo: 0
+        useColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+    - Key: 19
+      Value:
+        id: 19
+        name: V19
+        position: {x: 116.44369, y: 47.036457, z: -0.038975924}
+        neighbors: 1100000014000000
+        zoneType: 0
+        tipo: 0
+        useColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+    - Key: 20
+      Value:
+        id: 20
+        name: V20
+        position: {x: 112.64184, y: 40.55369, z: -0.038975924}
+        neighbors: 130000000a00000015000000
+        zoneType: 0
+        tipo: 0
+        useColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+    - Key: 21
+      Value:
+        id: 21
+        name: V21
+        position: {x: 101.25219, y: 45.65207, z: -0.038975924}
+        neighbors: 14000000160000000a000000
+        zoneType: 0
+        tipo: 0
+        useColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+    - Key: 22
+      Value:
+        id: 22
+        name: V22
+        position: {x: 100.13, y: 40.1, z: -0.038975924}
+        neighbors: 15000000
+        zoneType: 0
+        tipo: 0
+        useColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+    - Key: 23
+      Value:
+        id: 23
+        name: V23
+        position: {x: 112.73044, y: 60.761936, z: -0.038975924}
+        neighbors: 180000000d000000
+        zoneType: 0
+        tipo: 0
+        useColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+    - Key: 24
+      Value:
+        id: 24
+        name: V24
+        position: {x: 106.262405, y: 60.825737, z: -0.038975924}
+        neighbors: 0800000017000000
+        zoneType: 0
+        tipo: 0
+        useColor: 0
+        color: {r: 0, g: 0, b: 0, a: 0}
+  vertexSize: 0.6
+  normalColor: {r: 0, g: 1, b: 0, a: 1}
+  blockedColor: {r: 1, g: 0, b: 0, a: 1}
+  lineColor: {r: 0, g: 1, b: 1, a: 1}
+  vertexCount: 25
+  vertedLastID: 25
+  selectedVertices: 0b000000
+  vaiLaFilhao: 0
