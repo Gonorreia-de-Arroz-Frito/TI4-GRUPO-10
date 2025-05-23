@@ -9,6 +9,7 @@ public class Atributes : MonoBehaviour
     [SerializeField] bool destroyOnDeath = true;
 
     [SerializeField] Animator[] hurtAnimators;
+    [SerializeField] Rigidbody2D rb;
 
 
     public float getHealth()
@@ -89,6 +90,13 @@ public class Atributes : MonoBehaviour
         {
             Die();
         }
+
+    }
+
+    public void hurt(float val, Vector2 knockback)
+    {
+        rb.AddForce(knockback, ForceMode2D.Impulse);
+        hurt(val);
 
     }
 

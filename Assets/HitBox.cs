@@ -67,7 +67,8 @@ public class HitBox : MonoBehaviour
                 if (!collideList.Contains(hit))
                 {
                     collideList.Add(hit);
-                    hit.GetComponent<Atributes>().hurt(damage);
+                    Vector2 direction = (Vector2)hit.transform.position - (Vector2)transform.position;
+                    hit.GetComponent<Atributes>().hurt(damage, direction*knockback);
                 }
             }
         }

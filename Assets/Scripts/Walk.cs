@@ -5,7 +5,7 @@ public class Walk : MonoBehaviour
     public float speed = 5f;
     [SerializeField] Animator animator;
     [SerializeField] Rigidbody2D rb;
-
+    
     private void Start()
     {
         if (rb == null)

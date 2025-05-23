@@ -3,52 +3,54 @@ using UnityEngine;
 using System.Linq;
 using System.Collections.Generic;
 
+/// <summary>
+/// Editor personalizado do Unity para o componente <c>graphPath</c>.
+/// Permite criar e editar vértices, tipos, zonas e conexões diretamente pela Scene e Inspector.
+/// </summary>
 [CustomEditor(typeof(graphPath))]
 public class GraphEditor : Editor
 {
     private graphPath graph;
     private const float clickRadius = 0.5f;
 
-    private List<int> selectedVertices = new List<int>();
+    int dropdownFrom = 0; // Dropdown de origem manual
+    int dropdownTo = 0;   // Dropdown de destino manual
 
-    int dropdownFrom = 0;
-    int dropdownTo = 0;
-
+    /// <summary>
+    /// Obtém referência para o grafo quando o editor for ativado.
+    /// </summary>
     private void OnEnable()
     {
         graph = (graphPath)target;
     }
 
+    /// <summary>
+    /// Manipula eventos e handles da Scene View (posicionamento e conexões).
+    /// </summary>
     private void OnSceneGUI()
     {
         Event e = Event.current;
         Handles.color = Color.cyan;
 
-        for (int i = 0; i < graph.AdjacencyList.Count; i++)
+        var vertices = graph.AdjacencyList;
+
+        // Desenha linhas entre vizinhos
+        foreach (var v in vertices)
         {
-            if (graph.AlingToGrid)
+            foreach (int neighborId in v.neighbors)
             {
-                graph.AdjacencyList[i].position.x = Mathf.Round(graph.AdjacencyList[i].position.x - 0.5f) + 0.5f;
-                graph.AdjacencyList[i].position.y = Mathf.Round(graph.AdjacencyList[i].position.y - 0.5f) + 0.5f;
-                graph.AdjacencyList[i].position.z = Mathf.Round(graph.AdjacencyList[i].position.z - 0.5f) + 0.5f;
-            }
-
-            for (int j = 0; j < graph.AdjacencyList[i].neighbors.Count; j++)
-            {
-                int neighborId = graph.AdjacencyList[i].neighbors[j];
-
-                if (neighborId < graph.AdjacencyList.Count && neighborId > i)
+                var neighbor = vertices.FirstOrDefault(n => n.id == neighborId);
+                if (neighbor != null && neighbor.id > v.id)
                 {
-                    Gizmos.color = Color.green;
-                    Handles.DrawLine(graph.AdjacencyList[i].position, graph.AdjacencyList[neighborId].position);
+                    Handles.DrawLine(v.position, neighbor.position);
                 }
             }
         }
-        graph.AlingToGrid = false;
 
-        for (int i = 0; i < graph.AdjacencyList.Count; i++)
+        // Permite movimentar vértices e selecionar
+        for (int i = 0; i < vertices.Count; i++)
         {
-            Vertex v = graph.AdjacencyList[i];
+            Vertex v = vertices[i];
 
             EditorGUI.BeginChangeCheck();
             Vector3 newPos = Handles.PositionHandle(v.position, Quaternion.identity);
@@ -57,27 +59,29 @@ public class GraphEditor : Editor
             {
                 Undo.RecordObject(graph, "Move Vertex");
                 v.position = newPos;
+                graph.graphMap.Put(v.id, v);
                 EditorUtility.SetDirty(graph);
             }
 
-            // Draw selection handle
-            Handles.color = selectedVertices.Contains(i) ? Color.cyan : Color.red;
+            Handles.color = graph.selectedVertices.Contains(i) ? Color.cyan : Color.red;
+            if (vertices[i].useColor)
+            {
+                Handles.color = vertices[i].color;
+            }
 
             if (Handles.Button(v.position, Quaternion.identity, graph.vertexSize, 0.2f, Handles.SphereHandleCap))
             {
                 if (Event.current.control)
                 {
-                    // Multi-select with Ctrl
-                    if (!selectedVertices.Contains(i))
-                        selectedVertices.Add(i);
+                    if (!graph.selectedVertices.Contains(i))
+                        graph.selectedVertices.Add(i);
                     else
-                        selectedVertices.Remove(i);
+                        graph.selectedVertices.Remove(i);
                 }
                 else
                 {
-                    // Single select
-                    selectedVertices.Clear();
-                    selectedVertices.Add(i);
+                    graph.selectedVertices.Clear();
+                    graph.selectedVertices.Add(i);
                 }
 
                 GUI.changed = true;
@@ -85,6 +89,10 @@ public class GraphEditor : Editor
         }
     }
 
+    /// <summary>
+    /// Interface personalizada do Inspector.
+    /// Permite adicionar vértices, modificar tipo/zona e conectar nós.
+    /// </summary>
     public override void OnInspectorGUI()
     {
         DrawDefaultInspector();
@@ -92,27 +100,61 @@ public class GraphEditor : Editor
         EditorGUILayout.Space();
         EditorGUILayout.LabelField("Graph Editor Tools", EditorStyles.boldLabel);
 
+        // Botão para adicionar novo vértice
         if (GUILayout.Button("Add Vertex"))
         {
             Undo.RecordObject(graph, "Add Vertex");
-            graph.AdjacencyList.Add(new Vertex(graph.vertedLastID++, new Vector3(0, 0, 0)));
+            var newVertex = new Vertex(graph.vertedLastID++, graph.transform.position);
+            graph.graphMap.Put(newVertex.id, newVertex);
             graph.vertexCount++;
             EditorUtility.SetDirty(graph);
         }
 
+        EditorGUILayout.Space();
+        EditorGUILayout.LabelField("Zone Type Modifier", EditorStyles.boldLabel);
+
+        // Permite mudar zona e tipo de um vértice
+        if (graph.selectedVertices.Count == 1)
+        {
+            var v = graph.AdjacencyList[graph.selectedVertices[0]];
+
+            ZoneType newType = (ZoneType)EditorGUILayout.EnumPopup("Zone Type", v.zoneType);
+            if (newType != v.zoneType)
+            {
+                Undo.RecordObject(graph, "Change Zone Type");
+                v.zoneType = newType;
+                graph.graphMap.Put(v.id, v);
+                EditorUtility.SetDirty(graph);
+            }
+
+            int newTipo = EditorGUILayout.IntField("Tipo", v.tipo);
+            if (newTipo != v.tipo)
+            {
+                Undo.RecordObject(graph, "Change Tipo");
+                v.tipo = newTipo;
+                graph.graphMap.Put(v.id, v);
+                EditorUtility.SetDirty(graph);
+            }
+        }
 
         EditorGUILayout.Space();
         EditorGUILayout.LabelField("Edge Tools", EditorStyles.boldLabel);
 
-        if (selectedVertices.Count == 2)
+        // Botão para criar aresta entre dois vértices selecionados
+        if (graph.selectedVertices.Count == 2)
         {
-            if (GUILayout.Button($"Add Edge: {graph.AdjacencyList[selectedVertices[0]].name} → {graph.AdjacencyList[selectedVertices[1]].name}"))
+            if (GUILayout.Button("Add Edge Between Selected"))
             {
-                Undo.RecordObject(graph, "Add Edge via Selection");
-                graph.AdjacencyList[selectedVertices[0]].neighbors.Add(selectedVertices[1]);
-                graph.AdjacencyList[selectedVertices[1]].neighbors.Add(selectedVertices[0]);
+                var a = graph.AdjacencyList[graph.selectedVertices[0]];
+                var b = graph.AdjacencyList[graph.selectedVertices[1]];
+
+                if (!a.neighbors.Contains(b.id)) a.neighbors.Add(b.id);
+                if (!b.neighbors.Contains(a.id)) b.neighbors.Add(a.id);
+
+                graph.graphMap.Put(a.id, a);
+                graph.graphMap.Put(b.id, b);
                 EditorUtility.SetDirty(graph);
-                selectedVertices.Clear();
+                graph.selectedVertices.Clear();
             }
         }
         else
@@ -123,6 +165,7 @@ public class GraphEditor : Editor
         EditorGUILayout.Space();
         EditorGUILayout.LabelField("Add Edge Manually", EditorStyles.boldLabel);
 
+        // Interface para conexão manual
         string[] vertexNames = graph.AdjacencyList.Select(v => v.name).ToArray();
         if (vertexNames.Length >= 2)
         {
@@ -133,10 +176,14 @@ public class GraphEditor : Editor
             {
                 if (GUILayout.Button($"Add Edge: {vertexNames[dropdownFrom]} → {vertexNames[dropdownTo]}"))
                 {
-                    Undo.RecordObject(graph, "Add Edge via Dropdown");
+                    var a = graph.AdjacencyList[dropdownFrom];
+                    var b = graph.AdjacencyList[dropdownTo];
 
-                    graph.AdjacencyList[dropdownFrom].neighbors.Add(dropdownTo);
-                    graph.AdjacencyList[dropdownTo].neighbors.Add(dropdownFrom);
+                    if (!a.neighbors.Contains(b.id)) a.neighbors.Add(b.id);
+                    if (!b.neighbors.Contains(a.id)) b.neighbors.Add(a.id);
+
+                    graph.graphMap.Put(a.id, a);
+                    graph.graphMap.Put(b.id, b);
                     EditorUtility.SetDirty(graph);
                 }
             }
@@ -149,32 +196,21 @@ public class GraphEditor : Editor
         {
             EditorGUILayout.HelpBox("At least 2 vertices are required to add an edge.", MessageType.Warning);
         }
-        /*
-        if (GUILayout.Button("Add Edge (between last two)"))
-        {
-            if (graph.vertices.Count >= 2)
-            {
-                Undo.RecordObject(graph, "Add Edge");
-                graph.edges.Add(new Edge
-                {
-                    from = graph.vertices.Count - 2,
-                    to = graph.vertices.Count - 1
-                });
-                EditorUtility.SetDirty(graph);
-            }
-        }
 
-        if (GUILayout.Button("Clear Graph"))
+        EditorGUILayout.Space();
+        if (EditorGUILayout.LinkButton("TestPath from 1 to Type 2 not going though Type 3"))
         {
-            if (EditorUtility.DisplayDialog("Clear Graph?", "Are you sure you want to delete all vertices and edges?", "Yes", "Cancel"))
-            {
-                Undo.RecordObject(graph, "Clear Graph");
-                graph.vertices.Clear();
-                graph.edges.Clear();
-                selectedVertexIndex = -1;
-                EditorUtility.SetDirty(graph);
-            }
+            HashSet<int> hI = new HashSet<int>();
+            hI.Add(2);
+            HashSet<int> hB = new HashSet<int>();
+            hB.Add(3);
+
+
+
+            List<int> list = graph.FindInterestVertex(new Vector2(0, 0), hI, hB, false);
+
+            string result = string.Join(" --> ", list.Select(id => id.ToString()));
+            Debug.Log(result);
         }
-        */
     }
 }
