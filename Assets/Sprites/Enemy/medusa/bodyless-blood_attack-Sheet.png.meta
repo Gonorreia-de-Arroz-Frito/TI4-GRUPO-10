@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bodyless-blood_attack-Sheet_0: 6172716502803756170
+      bodyless-blood_attack-Sheet_1: 6684456436230605526
+      bodyless-blood_attack-Sheet_2: 3341891246931362261
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
