@@ -6,8 +6,8 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        PlayerPrefs.SetString("CenaParaCarregar", "3");
-        SceneManager.LoadScene(3);
+        PlayerPrefs.SetString("CenaParaCarregar", "2");
+        SceneManager.LoadScene("LoadingScene");
     }
 
     public void QuitGame()
