@@ -4,7 +4,8 @@ using UnityEngine.AI;
 using System.Collections.Generic;
 using System;
 
-public class EnemyAI : MonoBehaviour
+[RequireComponent(typeof(NavMeshAgent), typeof(LungeAttack))]
+public class EnemyMovement : MonoBehaviour
 {
     public Transform player;
     
@@ -12,6 +13,8 @@ public class EnemyAI : MonoBehaviour
     public float rotationSpeed = 10f;
     public Boolean patrol = false;
     public Boolean goingHome = false;
+    [SerializeField] LungeAttack attackScript;
+    [ReadOnlyAtribute][SerializeField] private bool canMove = true;
 
 
     public graphPath path;
@@ -29,24 +32,65 @@ public class EnemyAI : MonoBehaviour
 
     NavMeshAgent agent;
 
-    void Start()
+    void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
-        agent.updateRotation = false; 
-        agent.updateUpAxis = false;   
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
     }
 
     void Update()
     {
-        if (patrol)
-        {
-            behaviorController();
+        if (canMove) { 
+            if (patrol)
+            {
+                behaviorController();
+            }
+            else
+            {
+                moveToPlayer();
+            }
         }
-        else
+        
+        HandleRotation();
+    }
+
+    void OnEnable()
+    {
+        if (attackScript != null)
         {
-            moveToPlayer();
+            attackScript.OnAttackSequenceStart.AddListener(HandleAttackStarted);
+            attackScript.OnAttackSequenceEnd.AddListener(HandleAttackFinished);
         }
     }
+
+    void OnDisable()
+    {
+        if (attackScript != null)
+        {
+            attackScript.OnAttackSequenceStart.RemoveListener(HandleAttackStarted);
+            attackScript.OnAttackSequenceEnd.RemoveListener(HandleAttackFinished);
+        }
+    }
+
+    public void HandleAttackStarted()
+    {
+
+        Debug.Log("asasdasd");
+        canMove = false;
+        agent.ResetPath();
+    }
+
+    public void HandleAttackFinished()
+    {
+        canMove = true;
+        agent.isStopped = false;
+    }
+
+    
+
+
+
 
     public void moveToVertex()
     {
