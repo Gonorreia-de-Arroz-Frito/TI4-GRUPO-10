@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      padre_busto_0: -5890889245285360157
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
