@@ -1,5 +1,6 @@
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 
 public class Atributes : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class Atributes : MonoBehaviour
     [SerializeField] Animator[] hurtAnimators;
     [SerializeField] Rigidbody2D rb;
 
+    public bool isPlayer = false; // Indica se o objeto é um jogador
 
     public float getHealth()
     {
@@ -44,13 +46,19 @@ public class Atributes : MonoBehaviour
         Debug.Log(gameObject.name + " death attempt");
         if (destroyOnDeath)
         {
-            Destroy(gameObject);
         }
         else
         {
             setHealth(0, true);
         }
+
+        if (isPlayer)
+        {
+            // Garante que a cena "Game Over" está nas Build Settings
+            SceneManager.LoadScene("GameOver"); // Use o nome exato da cena   
+        }
     }
+
 
     /// <summary>
     /// Only positive values
