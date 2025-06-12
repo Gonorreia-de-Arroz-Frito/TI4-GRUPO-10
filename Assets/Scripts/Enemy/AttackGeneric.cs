@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System; 
 using UnityEngine;
+using UnityEngine.Events;
 
 /// <summary>
 /// Classe base abstrata para todos os comportamentos de ataque de inimigos.
@@ -9,6 +11,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D), typeof(Animator))]
 public abstract class EnemyAttackBase : MonoBehaviour
 {
+    public UnityEvent OnAttackSequenceEnd;
     [Header("CONFIGURAÇÕES GERAIS DE ATAQUE")]
     [Tooltip("Dano infligido ao alvo.")]
     [SerializeField] protected float damage = 10f;
@@ -48,8 +51,11 @@ public abstract class EnemyAttackBase : MonoBehaviour
         if (rb == null) rb = GetComponent<Rigidbody2D>();
     }
 
+    // ##################################################################
+    // #                 A LÓGICA DE UPDATE FOI ALTERADA                #
+    // ##################################################################
     /// <summary>
-    /// Gerencia os timers de ataque e cooldown.
+    /// Gerencia os timers e os estados de ataque/cooldown.
     /// </summary>
     protected virtual void Update()
     {
@@ -57,14 +63,20 @@ public abstract class EnemyAttackBase : MonoBehaviour
         cooldownTimer -= Time.deltaTime;
         attackTimer -= Time.deltaTime;
 
-        // Finaliza o ataque quando a duração termina.
-        if (isAttacking && attackTimer <= 0)
+        // Se o inimigo está no meio de um ataque...
+        if (isAttacking)
         {
-            FinishAttack();
-        }
+            // ...verifica continuamente por alvos na hitbox.
+            DetectAndDamage();
 
-        // Verifica a condição para um novo ataque se não estiver em cooldown ou atacando.
-        if (cooldownTimer <= 0 && !isAttacking)
+            // Finaliza o ataque quando a duração termina.
+            if (attackTimer <= 0f)
+            {
+                FinishAttack();
+            }
+        }
+        // Se não estiver atacando e nem em cooldown, verifica a condição para um novo ataque.
+        else if (cooldownTimer <= 0f)
         {
             AttackCondition();
         }
@@ -99,7 +111,7 @@ public abstract class EnemyAttackBase : MonoBehaviour
 
     /// <summary>
     /// Detecta e aplica dano aos alvos dentro da hitbox.
-    /// Idealmente chamado via Animation Event para sincronia com a animação.
+    /// A lista 'alreadyHitTargets' previne que o dano seja aplicado múltiplas vezes no mesmo ataque.
     /// </summary>
     public virtual void DetectAndDamage()
     {
@@ -123,13 +135,23 @@ public abstract class EnemyAttackBase : MonoBehaviour
     }
 
     /// <summary>
-    /// Reseta o estado de ataque e limpa a lista de alvos atingidos.
+    /// Reseta o estado de ataque e limpa la lista de alvos atingidos.
     /// </summary>
     private void FinishAttack()
     {
         isAttacking = false;
         alreadyHitTargets.Clear();
+
+        
+        OnAttackSequenceEnd.Invoke();
     }
+    public void AbortAttackSequence()
+    {
+        isAttacking = false;
+        OnAttackSequenceEnd.Invoke();
+    }
+
+
 
 #if UNITY_EDITOR
     [Header("DEBUG")]
@@ -149,9 +171,7 @@ public abstract class EnemyAttackBase : MonoBehaviour
         // Aplica rotação e posição ao Gizmo para corresponder à orientação do objeto.
         Gizmos.matrix = Matrix4x4.TRS(center, Quaternion.Euler(0, 0, transform.eulerAngles.z), Vector3.one);
 
-        // Desenha o contorno
         Gizmos.DrawWireCube(Vector3.zero, hitboxSize);
-        // Desenha o preenchimento com transparência
         Gizmos.color = new Color(Gizmos.color.r, Gizmos.color.g, Gizmos.color.b, 0.3f);
         Gizmos.DrawCube(Vector3.zero, hitboxSize);
     }
