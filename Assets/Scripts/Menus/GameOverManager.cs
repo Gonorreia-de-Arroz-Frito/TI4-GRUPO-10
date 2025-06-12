@@ -4,17 +4,40 @@ using TMPro;
 
 public class GameOverManager : MonoBehaviour
 {
+    // Singleton instance
+    public static GameOverManager Instance { get; private set; }
+
     public GameObject gameOverScreen;
     public TextMeshProUGUI gameOverMessage;
 
     private string[] mensagensLatinas = {
-        "Corpus tuum cecidit, anima tua hic remanet.",
-        "In tenebris, solus remanebis.",
-        "Non est pax pro te.",
-        "Oratio tua non audita est.",
-        "Finis est initium doloris."
+        "Mors est finis vitae",
+        "Tenebris et tenebrarum",
+        "Mortui in carne",
+        "In tenebris ambulamus"
     };
+
+    private void Awake()
+    {
+        // Implementação do Singleton
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject); // Garante que só há uma instância
+        }
+        else
+        {
+            Instance = this;
+            // Remova DontDestroyOnLoad(gameObject); se a cena Game Over é carregada
+        }
+    }
     
+    // Start é chamado antes do primeiro frame
+    void Start()
+    {
+        // Chama MostrarGameOver() quando a cena "Game Over" é carregada
+        MostrarGameOver(); 
+    }
+
     public void MostrarGameOver()
     {
         gameOverScreen.SetActive(true);
