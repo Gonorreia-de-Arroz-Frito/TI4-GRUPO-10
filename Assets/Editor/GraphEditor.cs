@@ -127,6 +127,7 @@ public class GraphEditor : Editor
                 EditorUtility.SetDirty(graph);
             }
 
+            /*
             int newTipo = EditorGUILayout.IntField("Tipo", v.tipo);
             if (newTipo != v.tipo)
             {
@@ -135,6 +136,7 @@ public class GraphEditor : Editor
                 graph.graphMap.Put(v.id, v);
                 EditorUtility.SetDirty(graph);
             }
+            */
         }
 
         EditorGUILayout.Space();
@@ -200,10 +202,10 @@ public class GraphEditor : Editor
         EditorGUILayout.Space();
         if (EditorGUILayout.LinkButton("TestPath from 1 to Type 2 not going though Type 3"))
         {
-            HashSet<int> hI = new HashSet<int>();
-            hI.Add(2);
-            HashSet<int> hB = new HashSet<int>();
-            hB.Add(3);
+            HashSet<ZoneType> hI = new HashSet<ZoneType>();
+            hI.Add(ZoneType.Normal);
+            HashSet<ZoneType> hB = new HashSet<ZoneType>();
+            hB.Add(ZoneType.Food);
 
 
 
