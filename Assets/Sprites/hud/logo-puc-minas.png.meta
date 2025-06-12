@@ -359,7 +359,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      logo-puc-minas_0: -1934223249157430046
+      logo-puc-minas_1: 4488563166067383806
+      logo-puc-minas_2: -2185776322878833870
+      logo-puc-minas_3: 3331967100514240719
+      logo-puc-minas_4: -580305691578266012
+      logo-puc-minas_5: 7477835381218492912
+      logo-puc-minas_6: -3383189190500968886
+      logo-puc-minas_7: 8193245789723916330
+      logo-puc-minas_8: -7218522206314542916
+      logo-puc-minas_9: 4687577005696153822
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
