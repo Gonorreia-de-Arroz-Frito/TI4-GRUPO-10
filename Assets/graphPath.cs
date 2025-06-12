@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System;
+using System.Security.Policy;
 
 /// <summary>
 /// Tipos de zona de um vértice.
@@ -8,7 +9,8 @@ using System;
 public enum ZoneType
 {
     Normal,     // Caminho livre
-    Blocked     // Caminho bloqueado (obstáculo)
+    Blocked,     // Caminho bloqueado (obstáculo)
+    Food
 }
 
 /// <summary>
@@ -22,8 +24,6 @@ public class Vertex
     public Vector3 position;           // Posição no espaço
     public List<int> neighbors = new(); // IDs dos vizinhos conectados
     public ZoneType zoneType = ZoneType.Normal; // Tipo de zona
-    [SerializeField]
-    public int tipo = 0;               // Tipo customizável
     public bool useColor = false;
     public Color color = Color.white;
 
@@ -230,11 +230,11 @@ public class graphPath : MonoBehaviour
     /// <summary>
     /// Altera o tipo de um vértice específico.
     /// </summary>
-    public void SetVertexTipo(int vertexId, int novoTipo)
+    public void SetVertexTipo(int vertexId, ZoneType novoTipo)
     {
         if (graphMap.TryGetValue(vertexId, out Vertex v))
         {
-            v.tipo = novoTipo;
+            v.zoneType = novoTipo;
             graphMap.Put(vertexId, v);
         }
     }
@@ -242,14 +242,14 @@ public class graphPath : MonoBehaviour
     /// <summary>
     /// Encontra o vértice mais próximo de um tipo específico.
     /// </summary>
-    public Vertex FindClosestVertexOfType(Vector3 position, int tipoDesejado)
+    public Vertex FindClosestVertexOfType(Vector3 position, ZoneType tipoDesejado)
     {
         Vertex closest = null;
         float minDist = Mathf.Infinity;
 
         foreach (var vertex in graphMap.GetAllVertices())
         {
-            if (vertex.tipo != tipoDesejado || vertex.zoneType == ZoneType.Blocked)
+            if (vertex.zoneType != tipoDesejado || vertex.zoneType == ZoneType.Blocked)
                 continue;
 
             float dist = Vector3.Distance(position, vertex.position);
@@ -280,10 +280,10 @@ public class graphPath : MonoBehaviour
     /// <param name="prohibitedTypes">Conjunto de tipos de vértices a evitar (ex: {5})</param>
     /// <param name="tryIgnore">Se verdadeiro, tenta uma segunda busca ignorando os proibidos</param>
     /// <returns>Lista de IDs dos vértices que formam o caminho até o objetivo mais próximo, ou lista vazia</returns>
-    public List<int> FindInterestVertex(Vector3 startPosition, HashSet<int> interestTypes, HashSet<int> prohibitedTypes, bool tryIgnore)
+    public List<int> FindInterestVertex(Vector3 startPosition, HashSet<ZoneType> interestTypes, HashSet<ZoneType> prohibitedTypes, bool tryIgnore)
     {
         // Função interna para fazer a busca com os tipos proibidos informados
-        List<int> TryFind(HashSet<int> tiposProibidos)
+        List<int> TryFind(HashSet<ZoneType> tiposProibidos)
         {
             // Encontra o vértice mais próximo que não esteja bloqueado
             Vertex start = FindClosestVertex(startPosition);
@@ -303,7 +303,7 @@ public class graphPath : MonoBehaviour
                 Vertex current = frontier.Dequeue();
 
                 // Se o vértice atual é de um tipo de interesse, retornamos o caminho até ele
-                if (interestTypes.Contains(current.tipo))
+                if (interestTypes.Contains(current.zoneType))
                     return ReconstructPathIDs(cameFrom, start.id, current.id);
 
                 // Explora os vizinhos do vértice atual
@@ -313,7 +313,7 @@ public class graphPath : MonoBehaviour
                         continue;
 
                     // Ignora vizinhos que estão bloqueados ou são de tipos proibidos
-                    if (neighbor.zoneType == ZoneType.Blocked || tiposProibidos.Contains(neighbor.tipo))
+                    if (neighbor.zoneType == ZoneType.Blocked || tiposProibidos.Contains(neighbor.zoneType))
                         continue;
 
                     // Calcula o custo até o vizinho
@@ -402,5 +402,49 @@ public class graphPath : MonoBehaviour
         path.Reverse();
 
         return path;
+    }
+
+    /// <summary>
+    /// Retorna os vértices que estão a uma distância exata (em passos) a partir de um vértice inicial.
+    /// </summary>
+    /// <param name="startId">ID do vértice inicial</param>
+    /// <param name="exactRange">Distância exata desejada (em número de conexões)</param>
+    /// <returns>Lista de vértices que estão a exatos 'exactRange' passos do vértice inicial</returns>
+    public List<Vertex> getVerticesAtExactRange(int startId, int exactRange)
+    {
+        List<Vertex> result = new();
+        if (!graphMap.TryGetValue(startId, out Vertex startVertex))
+            return result;
+
+        Queue<(Vertex vertex, int depth)> queue = new();
+        HashSet<int> visited = new();
+
+        queue.Enqueue((startVertex, 0));
+        visited.Add(startVertex.id);
+
+        while (queue.Count > 0)
+        {
+            var (current, depth) = queue.Dequeue();
+
+            if (depth == exactRange)
+            {
+                result.Add(current);
+                continue; // Não expande mais esse ramo
+            }
+
+            foreach (int neighborId in current.neighbors)
+            {
+                if (!graphMap.TryGetValue(neighborId, out Vertex neighbor))
+                    continue;
+
+                if (visited.Contains(neighbor.id) || neighbor.zoneType == ZoneType.Blocked)
+                    continue;
+
+                visited.Add(neighbor.id);
+                queue.Enqueue((neighbor, depth + 1));
+            }
+        }
+
+        return result;
     }
 }

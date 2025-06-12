@@ -8,7 +8,7 @@ using System;
 public class EnemyMovement : MonoBehaviour
 {
     public Transform player;
-    
+
     public float stopDistance = 1.3f;
     public float rotationSpeed = 10f;
     public Boolean patrol = false;
@@ -18,17 +18,17 @@ public class EnemyMovement : MonoBehaviour
 
 
     public graphPath path;
-    public List<int> interests = new List<int>();
-    public List<int> fears = new List<int>();
+    public List<ZoneType> interests = new List<ZoneType>();
+    public List<ZoneType> fears = new List<ZoneType>();
     public Boolean faceYourFears = true;
     public int homeID;
-    public List<int> visitedInterests = new List<int>();
+    public List<ZoneType> visitedInterests = new List<ZoneType>();
 
     public List<int> vertexPath = new List<int>();
     int indexOnPath = -1;
 
     [ReadOnlyAtribute][SerializeField] Boolean followingPath = false;
-    
+
 
     NavMeshAgent agent;
 
@@ -41,7 +41,8 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
-        if (canMove) { 
+        if (canMove)
+        {
             if (patrol)
             {
                 behaviorController();
@@ -51,7 +52,7 @@ public class EnemyMovement : MonoBehaviour
                 moveToPlayer();
             }
         }
-        
+
         HandleRotation();
     }
 
@@ -87,7 +88,7 @@ public class EnemyMovement : MonoBehaviour
         agent.isStopped = false;
     }
 
-    
+
 
 
 
@@ -97,9 +98,10 @@ public class EnemyMovement : MonoBehaviour
         if (indexOnPath == -1 || (path.graphMap.GetVertex(vertexPath[indexOnPath]).position - transform.position).magnitude < 1)
         {
             indexOnPath++;
-            if (indexOnPath >= vertexPath.Count) {
+            if (indexOnPath >= vertexPath.Count)
+            {
                 followingPath = false;
-                visitedInterests.Add(path.graphMap.GetVertex(vertexPath[indexOnPath-1]).tipo);
+                visitedInterests.Add(path.graphMap.GetVertex(vertexPath[indexOnPath - 1]).zoneType);
                 return;
             }
             agent.SetDestination(path.graphMap.GetVertex(vertexPath[indexOnPath]).position);
@@ -109,7 +111,7 @@ public class EnemyMovement : MonoBehaviour
     {
         if (followingPath)
         {
-            moveToVertex(); 
+            moveToVertex();
         }
         else
         {
@@ -127,7 +129,7 @@ public class EnemyMovement : MonoBehaviour
         }
         if (goingHome && (path.graphMap.GetVertex(homeID).position - transform.position).magnitude < 1)
         {
-            goingHome= false;   
+            goingHome = false;
             followingPath = false;
             visitedInterests.Clear();
         }
@@ -138,10 +140,10 @@ public class EnemyMovement : MonoBehaviour
 
         if (interests.Count == visitedInterests.Count) return -1;
 
-        HashSet<int> hi = new HashSet<int>();
-        HashSet<int> hf = new HashSet<int>();
+        HashSet<ZoneType> hi = new HashSet<ZoneType>();
+        HashSet<ZoneType> hf = new HashSet<ZoneType>();
 
-        foreach (int i in interests)
+        foreach (ZoneType i in interests)
         {
             if (!visitedInterests.Contains(i))
             {
@@ -149,7 +151,7 @@ public class EnemyMovement : MonoBehaviour
 
             }
         }
-        foreach (int i in fears)
+        foreach (ZoneType i in fears)
         {
             hf.Add(i);
         }
@@ -191,7 +193,7 @@ public class EnemyMovement : MonoBehaviour
                 // agent.ResetPath(); // Opcional, isStopped = true pode ser suficiente
             }
 
-            
+
             HandleRotation();
         }
     }
