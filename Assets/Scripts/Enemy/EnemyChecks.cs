@@ -12,11 +12,18 @@ public class EnemyChecks : MonoBehaviour
     [SerializeField] float innerRadius;
     [SerializeField] float maxDistance;
     [SerializeField] int foodGraphDistance;
+    [SerializeField] float playerDetectionRange;
 
-    [SerializeField][ReadOnlyAtribute] public bool visible = false;
     [SerializeField][ReadOnlyAtribute] float angle = 0;
     [SerializeField][ReadOnlyAtribute] Vector2 tf2Dir;
+    [SerializeField][ReadOnlyAtribute] public bool visible = false;
     [SerializeField][ReadOnlyAtribute] public bool foundFood = false;
+    [SerializeField][ReadOnlyAtribute] public bool foundPlayer = false;
+
+
+    [Header("Debug")]
+    [SerializeField] bool fPlayerGizmos = true;
+
 
 
 
@@ -24,6 +31,7 @@ public class EnemyChecks : MonoBehaviour
     {
         checkForFood();
         visibilityCheck();
+        checkForPlayer();
 
     }
     void visibilityCheck()
@@ -31,30 +39,24 @@ public class EnemyChecks : MonoBehaviour
         tf2Dir = -tf2.up;
         visible = false;
 
-
         float distance = Vector3.Distance(tf.position, tf2.position);
 
         if (distance <= maxDistance)
         {
             Vector3 direction = (tf2.position - tf.position).normalized;
-            RaycastHit hit;
-            bool ray = Physics.Raycast(tf.position, direction, out hit, maxDistance, layerMask);
-            if (!ray)
+            RaycastHit2D hit = Physics2D.Raycast(tf.position, direction, maxDistance, layerMask);
+            if (!hit.collider)
             {
-
-                Debug.Log("gabriel");
                 if (distance <= innerRadius)
                 {
                     visible = true;
-
                 }
 
-                angle = Vector3.Angle(-tf2.up, (tf2.position - tf.position).normalized);
+                angle = Vector3.Angle(-tf2.up, direction);
                 if (angle <= maxAngle)
                 {
                     visible = true;
                 }
-
             }
         }
     }
@@ -73,4 +75,42 @@ public class EnemyChecks : MonoBehaviour
         }
     }
 
+    void checkForPlayer()
+    {
+        foundPlayer = false;
+        Vector3 tPos = tf.position;
+        tPos.z = 0;
+
+        float distance = Vector3.Distance(tPos, tf2.position);
+
+        Debug.Log($"tPos: {tPos}, tf2.position: {tf2.position}");
+
+        if (distance <= playerDetectionRange)
+        {
+            Vector3 direction = (tf2.position - tPos).normalized;
+            RaycastHit2D hit = Physics2D.Raycast(tPos, direction, distance, layerMask);
+            if (!hit.collider)
+            {
+                foundPlayer = true;
+            }
+        }
+    }
+
+    void OnDrawGizmos()
+    {
+        if (fPlayerGizmos)
+        {
+
+            if (tf != null && tf2 != null)
+            {
+                float distance = Vector3.Distance(tf.position, tf2.position);
+                if (distance <= playerDetectionRange)
+                {
+                    Vector3 direction = (tf2.position - tf.position).normalized;
+                    Gizmos.color = Color.red;
+                    Gizmos.DrawLine(tf.position, tf.position + direction * distance);
+                }
+            }
+        }
+    }
 }

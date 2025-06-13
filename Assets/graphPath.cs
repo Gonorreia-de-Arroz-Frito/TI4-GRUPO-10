@@ -410,7 +410,7 @@ public class graphPath : MonoBehaviour
     /// <param name="startId">ID do vértice inicial</param>
     /// <param name="exactRange">Distância exata desejada (em número de conexões)</param>
     /// <returns>Lista de vértices que estão a exatos 'exactRange' passos do vértice inicial</returns>
-    public List<Vertex> getVerticesAtExactRange(int startId, int exactRange)
+    public List<Vertex> getVerticesAtExactRange(int startId, int maxRange)
     {
         List<Vertex> result = new();
         if (!graphMap.TryGetValue(startId, out Vertex startVertex))
@@ -426,25 +426,35 @@ public class graphPath : MonoBehaviour
         {
             var (current, depth) = queue.Dequeue();
 
-            if (depth == exactRange)
+            // Adiciona o vértice atual se ele estiver dentro do alcance máximo
+            if (depth <= maxRange) 
             {
                 result.Add(current);
-                continue; // Não expande mais esse ramo
+            }
+            else
+            {
+                // Se a profundidade já excedeu o alcance máximo, não precisamos continuar
+                // explorando a partir deste vértice ou de seus vizinhos.
+                continue; 
             }
 
-            foreach (int neighborId in current.neighbors)
+            // Explora os vizinhos apenas se eles ainda puderem estar dentro do alcance máximo
+            if (depth < maxRange) 
             {
-                if (!graphMap.TryGetValue(neighborId, out Vertex neighbor))
-                    continue;
+                foreach (int neighborId in current.neighbors)
+                {
+                    if (!graphMap.TryGetValue(neighborId, out Vertex neighbor))
+                        continue;
 
-                if (visited.Contains(neighbor.id) || neighbor.zoneType == ZoneType.Blocked)
-                    continue;
+                    if (visited.Contains(neighbor.id) || neighbor.zoneType == ZoneType.Blocked)
+                        continue;
 
-                visited.Add(neighbor.id);
-                queue.Enqueue((neighbor, depth + 1));
+                    visited.Add(neighbor.id);
+                    queue.Enqueue((neighbor, depth + 1));
+                }
             }
         }
-
         return result;
     }
 }
+
