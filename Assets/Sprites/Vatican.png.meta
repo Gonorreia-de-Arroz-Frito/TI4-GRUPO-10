@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Vatican_0: -6638946368809857758
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

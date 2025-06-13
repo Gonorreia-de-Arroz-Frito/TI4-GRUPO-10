@@ -148,7 +148,7 @@ public class goap : MonoBehaviour
 
             new GAction(
                 "AtackPlayer",
-                new Dictionary<string, bool> {{"foundPlayer", false}, {"lowHealth", false}},
+                new Dictionary<string, bool> {{"foundPlayer", true}, {"lowHealth", false}},
                 new Dictionary<string, bool> {{"foundFood", true}},
                 () => enemyMovement.SetModeGoToPlayer()
             ),
@@ -164,9 +164,9 @@ public class goap : MonoBehaviour
 
             new GAction(
                 "eat",
-                new Dictionary<string, bool> {{"onFood", true}},
+                new Dictionary<string, bool> {{"onFood", true}, { "foundPlayer", false} },
                 new Dictionary<string, bool> {{"hungry", false}},
-                () => Debug.Log("Eat")
+                () => enemyMovement.setModeEating()
             ),
 
             new GAction(
@@ -190,7 +190,7 @@ public class goap : MonoBehaviour
             {"foundFood", enemyChecks.foundFood},
             {"onFood", enemyMovement.path.FindClosestVertex(transform.position).zoneType == ZoneType.Food},
             {"lowHealth", atributes.getHealth() < (atributes.getMaxHealth() / 3)},
-            {"hungry", false},
+            {"hungry", enemyMovement.getFome() >= (enemyMovement.getMaxFood() / 3)},
             {"confort", false}
         };
 

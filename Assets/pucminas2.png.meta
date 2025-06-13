@@ -397,7 +397,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pucminas2_0: -5711433335901225936
+      pucminas2_1: 7883635125830343561
+      pucminas2_10: -5870360093251146473
+      pucminas2_2: 7637864733146461865
+      pucminas2_3: -6168811349159108477
+      pucminas2_4: 1913032922430221820
+      pucminas2_5: 2200665465628903241
+      pucminas2_6: 3635890215570214666
+      pucminas2_7: 2709323945760981044
+      pucminas2_8: -6828148478371639715
+      pucminas2_9: -316824041875688691
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

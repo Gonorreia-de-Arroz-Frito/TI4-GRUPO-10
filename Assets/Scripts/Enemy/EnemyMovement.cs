@@ -33,6 +33,11 @@ public class EnemyMovement : MonoBehaviour
 
     [ReadOnlyAtribute][SerializeField] Boolean followingPath = false;
 
+    [SerializeField] float maxFood;
+    [SerializeField][ReadOnlyAtribute] float fome;
+    [SerializeField] float foodDepleteRate;
+    [SerializeField] float foodReplenishRate;
+
 
     NavMeshAgent agent;
 
@@ -41,6 +46,7 @@ public class EnemyMovement : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+        fome = maxFood;
     }
 
     enum behaviourMode
@@ -48,7 +54,8 @@ public class EnemyMovement : MonoBehaviour
         patrol,
         goToFood,
         goToPlayer,
-        goToHome
+        goToHome,
+        eating
     }
 
     [SerializeField][ReadOnlyAtribute] behaviourMode currentMode = behaviourMode.patrol;
@@ -67,6 +74,9 @@ public class EnemyMovement : MonoBehaviour
 
     [ContextMenu("Set Go To Home Mode")]
     public void EditorSetModeGoToHome() => setModeGoToHome();
+
+    [ContextMenu("Set Eating Mode")]
+    public void EditorSetModeEating() => setModeEating();
 
 #if UNITY_EDITOR
     [CustomEditor(typeof(EnemyMovement))]
@@ -97,6 +107,10 @@ public class EnemyMovement : MonoBehaviour
             {
                 script.EditorSetModeGoToHome();
             }
+            if (GUILayout.Button("Set Eating Mode"))
+            {
+                script.EditorSetModeEating();
+            }
         }
     }
 #endif
@@ -120,10 +134,18 @@ public class EnemyMovement : MonoBehaviour
                 case behaviourMode.goToHome:
                     homeBehaviour();
                     break;
-
+                case behaviourMode.eating:
+                    eat();
+                    break;
             }
         }
-
+        if(currentMode != behaviourMode.eating)
+        {
+            if(fome < maxFood)
+            {
+                fome += foodDepleteRate * Time.deltaTime;
+            }
+        }
         HandleRotation();
     }
 
@@ -152,6 +174,11 @@ public class EnemyMovement : MonoBehaviour
     {
         resetBehaviour();
         currentMode = behaviourMode.goToHome;
+    }
+    public void setModeEating()
+    {
+        resetBehaviour();
+        currentMode = behaviourMode.eating;
     }
     // ____________________________________________
 
@@ -192,6 +219,17 @@ public class EnemyMovement : MonoBehaviour
     {
         canMove = true;
         agent.isStopped = false;
+    }
+
+    // ___________________________________________________________________________________________________________
+
+    public float getFome()
+    {
+        return fome;
+    }
+    public float getMaxFood()
+    {
+        return maxFood;
     }
 
     // ___________________________________________________________________________________________________________
@@ -277,6 +315,19 @@ public class EnemyMovement : MonoBehaviour
             {
                 followingPath = true;
             }
+        }
+    }
+
+    public void eat()
+    {
+        agent.isStopped = true;
+        if(fome > 0)
+        {
+            fome -= foodReplenishRate * Time.deltaTime;
+        }
+        else
+        {
+            fome = 0;
         }
     }
 
