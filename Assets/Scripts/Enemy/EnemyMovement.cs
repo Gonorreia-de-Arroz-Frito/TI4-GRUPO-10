@@ -139,9 +139,9 @@ public class EnemyMovement : MonoBehaviour
                     break;
             }
         }
-        if(currentMode != behaviourMode.eating)
+        if (currentMode != behaviourMode.eating)
         {
-            if(fome < maxFood)
+            if (fome < maxFood)
             {
                 fome += foodDepleteRate * Time.deltaTime;
             }
@@ -175,15 +175,19 @@ public class EnemyMovement : MonoBehaviour
         resetBehaviour();
         currentMode = behaviourMode.goToHome;
     }
+
+    public bool eating;
     public void setModeEating()
     {
         resetBehaviour();
+        eating = true;
         currentMode = behaviourMode.eating;
     }
     // ____________________________________________
 
     void resetBehaviour()
     {
+        eating = false;
         visitedInterests.Clear();
         followingPath = false;
         agent.isStopped = false;
@@ -321,7 +325,7 @@ public class EnemyMovement : MonoBehaviour
     public void eat()
     {
         agent.isStopped = true;
-        if(fome > 0)
+        if (fome > 0)
         {
             fome -= foodReplenishRate * Time.deltaTime;
         }

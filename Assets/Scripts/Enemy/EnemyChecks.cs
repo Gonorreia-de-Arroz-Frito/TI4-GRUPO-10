@@ -13,7 +13,7 @@ public class EnemyChecks : MonoBehaviour
     [SerializeField] float maxDistance;
     [SerializeField] int foodGraphDistance;
     [SerializeField] float playerDetectionRange;
-    
+
 
     [SerializeField][ReadOnlyAtribute] float angle = 0;
     [SerializeField][ReadOnlyAtribute] Vector2 tf2Dir;
@@ -28,7 +28,7 @@ public class EnemyChecks : MonoBehaviour
     [Header("Debug")]
     [SerializeField] bool fPlayerGizmos = true;
 
-    
+
 
 
     void Update()
@@ -41,7 +41,7 @@ public class EnemyChecks : MonoBehaviour
             checkForPlayer();
     }
 
-    
+
 
     void visibilityCheck()
     {
@@ -91,8 +91,6 @@ public class EnemyChecks : MonoBehaviour
         tPos.z = 0;
 
         float distance = Vector3.Distance(tPos, tf2.position);
-
-        Debug.Log($"tPos: {tPos}, tf2.position: {tf2.position}");
 
         if (distance <= playerDetectionRange)
         {
