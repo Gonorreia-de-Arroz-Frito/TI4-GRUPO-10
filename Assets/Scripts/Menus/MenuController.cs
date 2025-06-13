@@ -4,16 +4,16 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    // Arraste o GameObject do SEU PAINEL de opções aqui no Inspector
+    // Arraste o GameObject do SEU PAINEL de opï¿½ï¿½es aqui no Inspector
     [SerializeField] private GameObject optionsPanel;
-    // Arraste sua Ação "Esc" do Input System Asset aqui
+    // Arraste sua Aï¿½ï¿½o "Esc" do Input System Asset aqui
     [SerializeField] private InputActionReference toggleMenuActionReference;
 
     private bool isPanelOpen = false;
 
     void Awake()
     {
-        // Garante que o painel de opções comece desativado
+        // Garante que o painel de opï¿½ï¿½es comece desativado
         if (optionsPanel != null && optionsPanel.activeSelf)
         {
             optionsPanel.SetActive(false);
@@ -26,11 +26,10 @@ public class MenuController : MonoBehaviour
         {
             toggleMenuActionReference.action.performed += OnToggleMenuPerformed;
             toggleMenuActionReference.action.Enable();
-            Debug.Log("Menu habilitado!");
         }
         else
         {
-            Debug.LogError("ToggleMenuActionReference não foi atribuída ou a ação é nula no MenuController!");
+            Debug.LogError("ToggleMenuActionReference nï¿½o foi atribuï¿½da ou a aï¿½ï¿½o ï¿½ nula no MenuController!");
         }
     }
 
@@ -44,13 +43,13 @@ public class MenuController : MonoBehaviour
         }
     }
 
-    // Chamado quando a ação (Esc) é performada
+    // Chamado quando a aï¿½ï¿½o (Esc) ï¿½ performada
     private void OnToggleMenuPerformed(InputAction.CallbackContext context)
     {
         ToggleOptionsMenu();
     }
 
-    // Alterna a visibilidade do painel de opções
+    // Alterna a visibilidade do painel de opï¿½ï¿½es
     public void ToggleOptionsMenu()
     {
         isPanelOpen = !isPanelOpen;
@@ -61,14 +60,14 @@ public class MenuController : MonoBehaviour
         else
         {
             // Mensagem de erro corrigida para referenciar 'optionsPanel'
-            Debug.LogError("O 'Options Panel' não foi atribuído no MenuController!");
+            Debug.LogError("O 'Options Panel' nï¿½o foi atribuï¿½do no MenuController!");
         }
     }
 
-    // Função para retornar ao menu principal (Cena de índice 0)
+    // Funï¿½ï¿½o para retornar ao menu principal (Cena de ï¿½ndice 0)
     public void ReturnToMainMenu()
     {
-        // Time.timeScale = 1f; // Removido, pois não estamos mais alterando
+        // Time.timeScale = 1f; // Removido, pois nï¿½o estamos mais alterando
         SceneManager.LoadScene(0);
         Debug.Log("Retornando ao Menu Principal (Cena 0)");
     }

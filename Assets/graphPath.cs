@@ -96,6 +96,16 @@ public class GraphMap
         else
             return null;
     }
+
+    public Vertex GetRandomVertex()
+    {
+        BuildDictionary();
+        var vertices = new List<Vertex>(internalDictionary.Values);
+        if (vertices.Count == 0)
+            return null;
+        int randomIndex = UnityEngine.Random.Range(0, vertices.Count);
+        return vertices[randomIndex];
+    }
     public bool TryGetValue(int key, out Vertex value)
     {
         if (internalDictionary == null)
@@ -410,7 +420,7 @@ public class graphPath : MonoBehaviour
     /// <param name="startId">ID do vértice inicial</param>
     /// <param name="exactRange">Distância exata desejada (em número de conexões)</param>
     /// <returns>Lista de vértices que estão a exatos 'exactRange' passos do vértice inicial</returns>
-    public List<Vertex> getVerticesAtExactRange(int startId, int exactRange)
+    public List<Vertex> getVerticesAtExactRange(int startId, int maxRange)
     {
         List<Vertex> result = new();
         if (!graphMap.TryGetValue(startId, out Vertex startVertex))
@@ -426,25 +436,127 @@ public class graphPath : MonoBehaviour
         {
             var (current, depth) = queue.Dequeue();
 
-            if (depth == exactRange)
+            // Adiciona o vértice atual se ele estiver dentro do alcance máximo
+            if (depth <= maxRange)
             {
                 result.Add(current);
-                continue; // Não expande mais esse ramo
+            }
+            else
+            {
+                // Se a profundidade já excedeu o alcance máximo, não precisamos continuar
+                // explorando a partir deste vértice ou de seus vizinhos.
+                continue;
             }
 
-            foreach (int neighborId in current.neighbors)
+            // Explora os vizinhos apenas se eles ainda puderem estar dentro do alcance máximo
+            if (depth < maxRange)
             {
-                if (!graphMap.TryGetValue(neighborId, out Vertex neighbor))
-                    continue;
+                foreach (int neighborId in current.neighbors)
+                {
+                    if (!graphMap.TryGetValue(neighborId, out Vertex neighbor))
+                        continue;
 
-                if (visited.Contains(neighbor.id) || neighbor.zoneType == ZoneType.Blocked)
-                    continue;
+                    if (visited.Contains(neighbor.id) || neighbor.zoneType == ZoneType.Blocked)
+                        continue;
 
-                visited.Add(neighbor.id);
-                queue.Enqueue((neighbor, depth + 1));
+                    visited.Add(neighbor.id);
+                    queue.Enqueue((neighbor, depth + 1));
+                }
             }
         }
+        return result;
+    }
+
+    public List<int> FindSpecificVertex(Vector3 startPosition, int targetVertexId, HashSet<ZoneType> prohibitedTypes, bool tryIgnore)
+    {
+        // Get the target vertex; if it doesn't exist or is prohibited, we cannot go there
+        if (!graphMap.TryGetValue(targetVertexId, out Vertex targetVertex))
+        {
+            Debug.LogWarning($"Target vertex (ID: {targetVertexId}) not found in the graph.");
+            return new List<int>();
+        }
+
+        // Internal function to perform the search with the specified prohibited types
+        List<int> TryFind(HashSet<ZoneType> forbiddenTypes)
+        {
+            // Find the closest non-blocked starting vertex
+            Vertex start = FindClosestVertex(startPosition);
+            if (start == null)
+            {
+                Debug.LogWarning("Closest starting vertex not found.");
+                return new List<int>();
+            }
+
+            // If the target vertex itself is prohibited in the current attempt, return an empty list
+            if (forbiddenTypes.Contains(targetVertex.zoneType))
+            {
+                Debug.Log($"Target vertex (ID: {targetVertexId}) is of a prohibited type in the current attempt.");
+                return new List<int>();
+            }
+
+            // If the starting point is already the target vertex, return a path with only itself
+            if (start.id == targetVertexId)
+            {
+                return new List<int> { start.id };
+            }
+
+
+            var frontier = new PriorityQueue<Vertex>();
+            Dictionary<int, int> cameFrom = new();
+            Dictionary<int, float> costSoFar = new();
+
+            frontier.Enqueue(start, 0);
+            cameFrom[start.id] = start.id;
+            costSoFar[start.id] = 0;
+
+            while (frontier.Count > 0)
+            {
+                Vertex current = frontier.Dequeue();
+
+                // *** CHANGE HERE: If the current vertex is the SPECIFIC TARGET VERTEX we are looking for ***
+                if (current.id == targetVertexId)
+                {
+                    return ReconstructPathIDs(cameFrom, start.id, current.id);
+                }
+
+                // Explore the neighbors of the current vertex
+                foreach (int neighborId in current.neighbors)
+                {
+                    if (!graphMap.TryGetValue(neighborId, out Vertex neighbor))
+                        continue;
+
+                    // Ignore neighbors that are blocked or of prohibited types
+                    if (neighbor.zoneType == ZoneType.Blocked || forbiddenTypes.Contains(neighbor.zoneType))
+                        continue;
+
+                    // Calculate the cost to the neighbor
+                    float newCost = costSoFar[current.id] + Vector3.Distance(current.position, neighbor.position);
+
+                    // If it's a shorter path or not yet visited, update
+                    if (!costSoFar.ContainsKey(neighbor.id) || newCost < costSoFar[neighbor.id])
+                    {
+                        costSoFar[neighbor.id] = newCost;
+                        // Heuristic should always guide towards the SPECIFIC target
+                        float priority = newCost + Heuristic(neighbor.position, targetVertex.position);
+                        frontier.Enqueue(neighbor, priority);
+                        cameFrom[neighbor.id] = current.id;
+                    }
+                }
+            }
+
+            // No path to the specific vertex was found
+            return new List<int>();
+        }
+
+        // First attempt with the original prohibited types
+        List<int> result = TryFind(prohibitedTypes);
+
+        // If no path was found and 'tryIgnore' is true, try again without restrictions
+        if (result.Count == 0 && tryIgnore)
+            result = TryFind(new HashSet<ZoneType>()); // Pass an empty set (no prohibitions)
 
         return result;
     }
+
+
 }

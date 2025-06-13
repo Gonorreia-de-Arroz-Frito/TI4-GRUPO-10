@@ -4,6 +4,10 @@ using UnityEngine.AI;
 using System.Collections.Generic;
 using System;
 
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
 [RequireComponent(typeof(NavMeshAgent), typeof(LungeAttack))]
 public class EnemyMovement : MonoBehaviour
 {
@@ -39,21 +43,123 @@ public class EnemyMovement : MonoBehaviour
         agent.updateUpAxis = false;
     }
 
+    enum behaviourMode
+    {
+        patrol,
+        goToFood,
+        goToPlayer,
+        goToHome
+    }
+
+    [SerializeField][ReadOnlyAtribute] behaviourMode currentMode = behaviourMode.patrol;
+
+
+    // _________________________________________________________________________
+    // Add buttons in the Inspector to activate each mode setter
+    [ContextMenu("Set Patrol Mode")]
+    public void EditorSetModePatrol() => SetModePatrol();
+
+    [ContextMenu("Set Go To Player Mode")]
+    public void EditorSetModeGoToPlayer() => SetModeGoToPlayer();
+
+    [ContextMenu("Set Go To Food Mode")]
+    public void EditorSetModeGoToFood() => SetModeGoToFood();
+
+    [ContextMenu("Set Go To Home Mode")]
+    public void EditorSetModeGoToHome() => setModeGoToHome();
+
+#if UNITY_EDITOR
+    [CustomEditor(typeof(EnemyMovement))]
+    public class EnemyMovementEditor : Editor
+    {
+        public override void OnInspectorGUI()
+        {
+            DrawDefaultInspector();
+
+            EnemyMovement script = (EnemyMovement)target;
+
+            GUILayout.Space(10);
+            GUILayout.Label("Debug Mode Setters", EditorStyles.boldLabel);
+
+            if (GUILayout.Button("Set Patrol Mode"))
+            {
+                script.EditorSetModePatrol();
+            }
+            if (GUILayout.Button("Set Go To Player Mode"))
+            {
+                script.EditorSetModeGoToPlayer();
+            }
+            if (GUILayout.Button("Set Go To Food Mode"))
+            {
+                script.EditorSetModeGoToFood();
+            }
+            if (GUILayout.Button("Set Go To Home Mode"))
+            {
+                script.EditorSetModeGoToHome();
+            }
+        }
+    }
+#endif
+
+
     void Update()
     {
         if (canMove)
         {
-            if (patrol)
+            switch (currentMode)
             {
-                behaviorController();
-            }
-            else
-            {
-                moveToPlayer();
+                case behaviourMode.patrol:
+                    PatrolBehavior();
+                    break;
+                case behaviourMode.goToFood:
+                    behaviorController(new List<ZoneType> { ZoneType.Food });
+                    break;
+                case behaviourMode.goToPlayer:
+                    moveToPlayer();
+                    break;
+                case behaviourMode.goToHome:
+                    homeBehaviour();
+                    break;
+
             }
         }
 
         HandleRotation();
+    }
+
+
+    // ___________________________________________
+    // set mode for patrol player and food
+    public void SetModePatrol()
+    {
+        resetBehaviour();
+        currentMode = behaviourMode.patrol;
+    }
+
+    public void SetModeGoToPlayer()
+    {
+        resetBehaviour();
+        currentMode = behaviourMode.goToPlayer;
+    }
+
+    public void SetModeGoToFood()
+    {
+        resetBehaviour();
+        currentMode = behaviourMode.goToFood;
+    }
+
+    public void setModeGoToHome()
+    {
+        resetBehaviour();
+        currentMode = behaviourMode.goToHome;
+    }
+    // ____________________________________________
+
+    void resetBehaviour()
+    {
+        visitedInterests.Clear();
+        followingPath = false;
+        agent.isStopped = false;
     }
 
     void OnEnable()
@@ -88,62 +194,153 @@ public class EnemyMovement : MonoBehaviour
         agent.isStopped = false;
     }
 
-
-
-
-
+    // ___________________________________________________________________________________________________________
 
     public void moveToVertex()
     {
-        if (indexOnPath == -1 || (path.graphMap.GetVertex(vertexPath[indexOnPath]).position - transform.position).magnitude < 1)
+        if (
+            indexOnPath == -1 ||                                                                           // If indexOnPath is null
+            (path.graphMap.GetVertex(vertexPath[indexOnPath]).position - transform.position).magnitude < 1 // if distance between position and target is 1
+         )
         {
+            // add 1 to index
             indexOnPath++;
+
+            // if finished going trought
             if (indexOnPath >= vertexPath.Count)
             {
                 followingPath = false;
+                // added this zoneType to list of visited types
                 visitedInterests.Add(path.graphMap.GetVertex(vertexPath[indexOnPath - 1]).zoneType);
                 return;
             }
             agent.SetDestination(path.graphMap.GetVertex(vertexPath[indexOnPath]).position);
         }
     }
-    public void behaviorController()
+    public void behaviorController(List<ZoneType> it)
     {
         if (followingPath)
         {
             moveToVertex();
         }
-        else
+        else // if not following
         {
             indexOnPath = -1;
-            int ret = findNextInterest();
-            if (ret == -1)
+            int ret = findNextInterest(it); // try to find next interests
+            if (ret == -1) // if coudnt
             {
-                agent.SetDestination(path.graphMap.GetVertex(homeID).position);
-                goingHome = true;
+                agent.isStopped = true;
             }
             else
             {
                 followingPath = true;
             }
         }
-        if (goingHome && (path.graphMap.GetVertex(homeID).position - transform.position).magnitude < 1)
+    }
+
+    public void PatrolBehavior()
+    {
+        if (followingPath)
         {
-            goingHome = false;
-            followingPath = false;
-            visitedInterests.Clear();
+            moveToVertex();
+        }
+        else // if not following
+        {
+            indexOnPath = -1;
+            int ret = findRandomInterest(); // try to find next interests
+            if (ret == -1) // if coudnt
+            {
+                resetBehaviour();
+            }
+            else
+            {
+                followingPath = true;
+            }
         }
     }
 
-    public int findNextInterest()
+    public void homeBehaviour()
+    {
+        if (followingPath)
+        {
+            moveToVertex();
+        }
+        else // if not following
+        {
+            indexOnPath = -1;
+            int ret = findSpecificInterest(homeID); // try to find next interests
+            if (ret == -1) // if coudnt
+            {
+                agent.isStopped = true;
+            }
+            else
+            {
+                followingPath = true;
+            }
+        }
+    }
+
+    public int findSpecificInterest(int id)
+    {
+        HashSet<ZoneType> hf = new HashSet<ZoneType>();
+
+        foreach (ZoneType i in fears)
+        {
+            hf.Add(i);
+        }
+
+        vertexPath = path.FindSpecificVertex(
+            transform.position,
+            id,
+            hf,
+            faceYourFears
+            );
+
+        if (vertexPath.Count == 0)
+        {
+            return -1;
+        }
+        else
+        {
+            return 0;
+        }
+    }
+
+    public int findRandomInterest()
+    {
+        HashSet<ZoneType> hf = new HashSet<ZoneType>();
+
+        foreach (ZoneType i in fears)
+        {
+            hf.Add(i);
+        }
+
+        vertexPath = path.FindSpecificVertex(
+            transform.position,
+            path.graphMap.GetRandomVertex().id,
+            hf,
+            faceYourFears
+            );
+
+        if (vertexPath.Count == 0)
+        {
+            return -1;
+        }
+        else
+        {
+            return 0;
+        }
+    }
+
+    public int findNextInterest(List<ZoneType> it)
     {
 
-        if (interests.Count == visitedInterests.Count) return -1;
+        if (it.Count == visitedInterests.Count) return -1;
 
         HashSet<ZoneType> hi = new HashSet<ZoneType>();
         HashSet<ZoneType> hf = new HashSet<ZoneType>();
 
-        foreach (ZoneType i in interests)
+        foreach (ZoneType i in it)
         {
             if (!visitedInterests.Contains(i))
             {
