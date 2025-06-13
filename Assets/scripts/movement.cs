@@ -128,7 +128,7 @@ public class movement : MonoBehaviour
     void UpdateAnimator()
     {
         animator.SetBool("isWalking", wishDir != Vector2.zero);
-        animator.SetBool("isWalkingBackward", invertRunAnimation);
+        //animator.SetBool("isWalkingBackward", invertRunAnimation);
     }
 
     // --- FUNÇÃO DE SOM MODIFICADA ---

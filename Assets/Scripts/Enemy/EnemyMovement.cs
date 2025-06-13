@@ -118,6 +118,7 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
+        HandleRotation();
         if (canMove)
         {
             switch (currentMode)
@@ -146,7 +147,6 @@ public class EnemyMovement : MonoBehaviour
                 fome += foodDepleteRate * Time.deltaTime;
             }
         }
-        HandleRotation();
     }
 
 
