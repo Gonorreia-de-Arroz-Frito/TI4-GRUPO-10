@@ -452,10 +452,8 @@ public class EnemyMovement : MonoBehaviour
 
     void HandleRotation()
     {
-        // Só rotaciona se o agente estiver se movendo (não parado)
-        // e tiver uma velocidade detectável.
-        if (!agent.isStopped && agent.velocity.sqrMagnitude > 0.01f)
-        {
+        
+        
             // A direção da velocidade do NavMeshAgent
             Vector2 moveDirection = new Vector2(agent.velocity.x, agent.velocity.y);
 
@@ -479,7 +477,7 @@ public class EnemyMovement : MonoBehaviour
                 // Se quiser rotação instantânea, use: transform.rotation = targetRotation;
                 transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
             }
-        }
+        
         // Opcional: Se você quiser que o inimigo encare o jogador quando estiver parado
         else if (agent.isStopped && player != null)
         {
